@@ -1,38 +1,237 @@
 {
-  "uruguay": {
-    "title": "Уругвай",
+  "afghanistan": {
+    "title": "Афганистан",
     "images": [
       {
-        "filename": "uruguay_correro_aereo",
-        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "filename": "afghanistan_84_anniversaire_de_laviation",
+        "alt": "",
         "category": [
-          "Транспорт",
-          "Предметы"
+          "Транспорт"
+        ],
+        "year": 1984
+      }
+    ]
+  },
+  "armenia": {
+    "title": "Армения",
+    "images": [
+      {
+        "filename": "armenia_vazgen_1",
+        "alt": "",
+        "category": [
+          "Персонажи"
+        ]
+      }
+    ]
+  },
+  "belgue": {
+    "title": "Бельгия",
+    "images": [
+      {
+        "filename": "belgue_sabena",
+        "alt": "",
+        "category": [
+          "Транспорт"
+        ]
+      }
+    ]
+  },
+  "bulgaria": {
+    "title": "Болгария",
+    "images": [
+      {
+        "filename": "bulgaria_63_luna_4_2",
+        "alt": "",
+        "category": [
+          "Космос"
         ]
       },
       {
-        "filename": "uruguay_correro_aereo_2",
-        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "filename": "bulgaria_63_luna_4",
+        "alt": "",
         "category": [
-          "Транспорт",
-          "Предметы"
+          "Космос"
+        ]
+      }
+    ]
+  },
+  "burundi": {
+    "title": "Бурунди",
+    "images": [
+      {
+        "filename": "burundi_nicolas_copernic",
+        "alt": "",
+        "category": [
+          "Персонажи"
         ]
       },
       {
-        "filename": "uruguay_correro_aereo_3",
-        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "filename": "burundi_nicolas_copernic_2",
+        "alt": "",
         "category": [
-          "Транспорт",
-          "Предметы"
+          "Персонажи"
         ]
+      }
+    ]
+  },
+  "chile": {
+    "title": "Чили",
+    "images": [
+      {
+        "filename": "chile_corero_aereo",
+        "alt": "",
+        "category": [
+          "Транспорт"
+        ]
+      }
+    ]
+  },
+  "cuba": {
+    "title": "Куба",
+    "images": [
+      {
+        "filename": "cuba_65_centenario_union_internacional",
+        "alt": "",
+        "category": [
+          "Организации"
+        ],
+        "year": 1965
       },
       {
-        "filename": "uruguay_correro_aereo_4",
-        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "filename": "cuba_72_munich_olympics",
+        "alt": "",
         "category": [
-          "Транспорт",
-          "Предметы"
-        ]
+          "Спорт"
+        ],
+        "year": 1972
+      },
+      {
+        "filename": "cuba_72_munich_olympics_2",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1972
+      },
+      {
+        "filename": "cuba_72_munich_olympics_3",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1972
+      },
+      {
+        "filename": "cuba_72_munich_olympics_4",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1972
+      },
+      {
+        "filename": "cuba_72_munich_olympics_5",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1972
+      },
+      {
+        "filename": "cuba_72_munich_olympics_6",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1972
+      },
+      {
+        "filename": "cuba_75_evolucion_del_ferrocarril_2",
+        "alt": "",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1975
+      },
+      {
+        "filename": "cuba_75_evolucion_del_ferrocarril_3",
+        "alt": "",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1975
+      },
+      {
+        "filename": "cuba_75_evolucion_del_ferrocarril",
+        "alt": "",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1975
+      },
+      {
+        "filename": "cuba_80_olympics_2",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
+      },
+      {
+        "filename": "cuba_80_olympics_3",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
+      },
+      {
+        "filename": "cuba_80_olympics_4",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
+      },
+      {
+        "filename": "cuba_80_olympics_5",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
+      },
+      {
+        "filename": "cuba_80_olympics_6",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
+      },
+      {
+        "filename": "cuba_80_olympics_7",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
+      },
+      {
+        "filename": "cuba_80_olympics_8",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
+      },
+      {
+        "filename": "cuba_80_olympics",
+        "alt": "",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1980
       }
     ]
   },
@@ -65,250 +264,6 @@
       }
     ]
   },
-  "afghanistan": {
-    "title": "Афганистан",
-    "images": [
-      {
-        "filename": "afghanistan_84_anniversaire_de_laviation",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1984
-      }
-    ]
-  },
-  "armenia": {
-    "title": "Армения",
-    "images": [
-      {
-        "filename": "armenia_vazgen_1",
-        "alt": "",
-        "category": [
-          ""
-        ]
-      }
-    ]
-  },
-  "belgue": {
-    "title": "Бельгия",
-    "images": [
-      {
-        "filename": "belgue_sabena",
-        "alt": "",
-        "category": [
-          ""
-        ]
-      }
-    ]
-  },
-  "bulgaria": {
-    "title": "Болгария",
-    "images": [
-      {
-        "filename": "bulgaria_63_luna_4_2",
-        "alt": "",
-        "category": [
-          ""
-        ]
-      },
-      {
-        "filename": "bulgaria_63_luna_4",
-        "alt": "",
-        "category": [
-          ""
-        ]
-      }
-    ]
-  },
-  "burundi": {
-    "title": "Бурунди",
-    "images": [
-      {
-        "filename": "burundi_nicolas_copernic",
-        "alt": "",
-        "category": [
-          ""
-        ]
-      },
-      {
-        "filename": "burundi_nicolas_copernic_2",
-        "alt": "",
-        "category": [
-          ""
-        ]
-      }
-    ]
-  },
-  "chile": {
-    "title": "Чили",
-    "images": [
-      {
-        "filename": "chile_corero_aereo",
-        "alt": "",
-        "category": [
-          ""
-        ]
-      }
-    ]
-  },
-  "cuba": {
-    "title": "Куба",
-    "images": [
-      {
-        "filename": "cuba_65_centenario_union_internacional",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1965
-      },
-      {
-        "filename": "cuba_72_munich_olympics",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1972
-      },
-      {
-        "filename": "cuba_65_centenario_union_internacional",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1965
-      },
-      {
-        "filename": "cuba_72_munich_olympics_2",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1972
-      },
-      {
-        "filename": "cuba_72_munich_olympics_3",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1972
-      },
-      {
-        "filename": "cuba_72_munich_olympics_4",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1972
-      },
-      {
-        "filename": "cuba_72_munich_olympics_5",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1972
-      },
-      {
-        "filename": "cuba_72_munich_olympics_6",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1972
-      },
-      {
-        "filename": "cuba_75_evolucion_del_ferrocarril_2",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1975
-      },
-      {
-        "filename": "cuba_75_evolucion_del_ferrocarril_3",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1975
-      },
-      {
-        "filename": "cuba_75_evolucion_del_ferrocarril",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1975
-      },
-      {
-        "filename": "cuba_80_olympics_2",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      },
-      {
-        "filename": "cuba_80_olympics_3",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      },
-      {
-        "filename": "cuba_80_olympics_4",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      },
-      {
-        "filename": "cuba_80_olympics_5",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      },
-      {
-        "filename": "cuba_80_olympics_6",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      },
-      {
-        "filename": "cuba_80_olympics_7",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      },
-      {
-        "filename": "cuba_80_olympics_8",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      },
-      {
-        "filename": "cuba_80_olympics",
-        "alt": "",
-        "category": [
-          ""
-        ],
-        "year": 1980
-      }
-    ]
-  },
   "france": {
     "title": "Франция",
     "images": [
@@ -316,7 +271,7 @@
         "filename": "france_post_aerienne",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       }
     ]
@@ -328,7 +283,7 @@
         "filename": "germany_adonis_veri_alis",
         "alt": "",
         "category": [
-          ""
+          "Природа"
         ]
       }
     ]
@@ -340,7 +295,7 @@
         "filename": "hungary_77_boeing_747",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1977
       },
@@ -348,7 +303,7 @@
         "filename": "hungary_77_il_62",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1977
       }
@@ -361,21 +316,21 @@
         "filename": "indonesia_republic",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "indonesia_republic_2",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "indonesia_republic_3",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       }
     ]
@@ -387,7 +342,7 @@
         "filename": "mongolia_71_mongol_showdan_30",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -395,7 +350,8 @@
         "filename": "mongolia_61_airmail_2",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные"
         ],
         "year": 1961
       },
@@ -403,7 +359,8 @@
         "filename": "mongolia_61_airmail",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные"
         ],
         "year": 1961
       },
@@ -411,7 +368,7 @@
         "filename": "mongolia_71_mongol_showdan_29",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -419,7 +376,7 @@
         "filename": "mongolia_71_mongol_showdan_31",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -427,7 +384,7 @@
         "filename": "mongolia_71_mongol_showdan_32",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -435,7 +392,7 @@
         "filename": "mongolia_71_mongol_showdan_33",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -443,7 +400,7 @@
         "filename": "mongolia_71_mongol_showdan_34",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -451,7 +408,7 @@
         "filename": "mongolia_71_mongol_showdan_35",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -459,7 +416,7 @@
         "filename": "mongolia_71_mongol_showdan_36",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1971
       },
@@ -467,7 +424,8 @@
         "filename": "mongolia_72_mongol_showdan_38",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные"
         ],
         "year": 1972
       },
@@ -475,7 +433,7 @@
         "filename": "mongolia_72_mongol_showdan_40",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1972
       },
@@ -483,7 +441,7 @@
         "filename": "mongolia_73_mongol_showdan_37",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1973
       },
@@ -491,7 +449,7 @@
         "filename": "mongolia_73_mongol_showdan_41",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1973
       },
@@ -499,7 +457,7 @@
         "filename": "mongolia_73_mongol_showdan_43",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1973
       },
@@ -507,7 +465,7 @@
         "filename": "mongolia_75_mongol_showdan_42",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1975
       },
@@ -515,217 +473,227 @@
         "filename": "mongolia_lunik",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_2",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_3",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_4",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_5",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_6",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_7",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_8",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_9",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_10",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_11",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_12",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_13",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_14",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_15",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_16",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_17",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_18",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_19",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_20",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_21",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_22",
         "alt": "",
         "category": [
-          ""
+          "Животные",
+          "Природа"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_23",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_24",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_25",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Животные",
+          "Природа"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_26",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_27",
         "alt": "",
         "category": [
-          ""
+          "Природа",
+          "Животные"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_28",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan_39",
         "alt": "",
         "category": [
-          ""
+          "Персонажи",
+          "Природа",
+          "Животные"
         ]
       },
       {
         "filename": "mongolia_mongol_showdan",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ]
       },
       {
         "filename": "mongolia_tiros",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ]
       }
     ]
@@ -737,35 +705,35 @@
         "filename": "oman_5",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "oman_1",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "oman_2",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "oman_3",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "oman_4",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       }
     ]
@@ -777,7 +745,7 @@
         "filename": "poland_07_1",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1907
       },
@@ -785,28 +753,28 @@
         "filename": "poland_1",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "poland_2",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "poland_3",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "poland_07_2",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1907
       },
@@ -814,7 +782,7 @@
         "filename": "poland_32_rwd_6_zwirko",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1932
       },
@@ -822,7 +790,7 @@
         "filename": "poland_34_rwd_9_bajan",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1934
       },
@@ -830,7 +798,7 @@
         "filename": "poland_57_eletryfikacja_linii",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1957
       },
@@ -838,7 +806,7 @@
         "filename": "poland_69_et_22",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1969
       },
@@ -846,7 +814,7 @@
         "filename": "poland_76_aleksander_czekanowski",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1976
       },
@@ -854,7 +822,7 @@
         "filename": "poland_76_stephenson",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1976
       },
@@ -862,7 +830,7 @@
         "filename": "poland_79_platichthys_flesus",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1979
       },
@@ -870,7 +838,7 @@
         "filename": "poland_79_salmo_truttaf",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1979
       },
@@ -878,28 +846,28 @@
         "filename": "poland_klon",
         "alt": "",
         "category": [
-          ""
+          "Природа"
         ]
       },
       {
         "filename": "poland_polonez_fso",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "poland_topola",
         "alt": "",
         "category": [
-          ""
+          "Природа"
         ]
       },
       {
         "filename": "poland_warszawa_m_20",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       }
     ]
@@ -911,7 +879,7 @@
         "filename": "russia_2000_ganover",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 2000
       }
@@ -924,35 +892,35 @@
         "filename": "espana_correro_aereo",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "espana_correro_aereo_2",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "espana_correro_aereo_3",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "espana_correro_aereo_4",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "espana_correro_aereo_5",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       }
     ]
@@ -964,35 +932,35 @@
         "filename": "suriname_stichting_lucht_en_2",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "suriname_stichting_lucht_en_3",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ]
       },
       {
         "filename": "suriname_stichting_lucht_en_4",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "suriname_stichting_lucht_en_5",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ]
       },
       {
         "filename": "suriname_stichting_lucht_en",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ]
       }
     ]
@@ -1004,7 +972,7 @@
         "filename": "swiss_53_swissair",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1953
       }
@@ -1017,7 +985,7 @@
         "filename": "turkey_67_cumhuriyeti_2",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1967
       },
@@ -1025,9 +993,42 @@
         "filename": "turkey_67_cumhuriyeti",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1967
+      }
+    ]
+  },
+  "uruguay": {
+    "title": "Уругвай",
+    "images": [
+      {
+        "filename": "uruguay_correro_aereo",
+        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "category": [
+          "Транспорт"
+        ]
+      },
+      {
+        "filename": "uruguay_correro_aereo_2",
+        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "category": [
+          "Транспорт"
+        ]
+      },
+      {
+        "filename": "uruguay_correro_aereo_3",
+        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "category": [
+          "Транспорт"
+        ]
+      },
+      {
+        "filename": "uruguay_correro_aereo_4",
+        "alt": "Correro Aereo Republica O.del Uruguay IMP.NACIONAL",
+        "category": [
+          "Транспорт"
+        ]
       }
     ]
   },
@@ -1038,7 +1039,7 @@
         "filename": "ussr_61_40_let_sovetskoy_pochtovoy_marke",
         "alt": "",
         "category": [
-          ""
+          "Организации"
         ],
         "year": 1961
       },
@@ -1046,7 +1047,7 @@
         "filename": "ussr_62_aist",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1962
       },
@@ -1054,7 +1055,7 @@
         "filename": "ussr_62_krasnozobaya_kazarka",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1962
       },
@@ -1062,7 +1063,7 @@
         "filename": "ussr_66_itkol",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1966
       },
@@ -1070,7 +1071,7 @@
         "filename": "ussr_70_chuvashskoi_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1970
       },
@@ -1078,7 +1079,7 @@
         "filename": "ussr_70_kalmytskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1970
       },
@@ -1086,7 +1087,7 @@
         "filename": "ussr_70_karelskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1970
       },
@@ -1094,7 +1095,7 @@
         "filename": "ussr_70_mandarinka",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1970
       },
@@ -1102,7 +1103,7 @@
         "filename": "ussr_70_mariyskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1970
       },
@@ -1110,7 +1111,7 @@
         "filename": "ussr_70_tatarskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1970
       },
@@ -1118,7 +1119,7 @@
         "filename": "ussr_70_udmurtskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1970
       },
@@ -1126,7 +1127,7 @@
         "filename": "ussr_71_adzharskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1971
       },
@@ -1134,7 +1135,7 @@
         "filename": "ussr_71_almazniy_fond",
         "alt": "",
         "category": [
-          ""
+          "Предметы"
         ],
         "year": 1971
       },
@@ -1142,7 +1143,7 @@
         "filename": "ussr_71_dagestanskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1971
       },
@@ -1150,7 +1151,7 @@
         "filename": "ussr_71_federatsiya_bortsov_soprotivleniya",
         "alt": "",
         "category": [
-          ""
+          "Организации"
         ],
         "year": 1971
       },
@@ -1158,7 +1159,7 @@
         "filename": "ussr_71_kabardino_balkarskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1971
       },
@@ -1166,7 +1167,7 @@
         "filename": "ussr_72_checheno_ingushkaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1971
       },
@@ -1174,7 +1175,7 @@
         "filename": "ussr_72_chernogolovaya_chaika",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1971
       },
@@ -1182,7 +1183,7 @@
         "filename": "ussr_72_rozovaya_chayka",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1971
       },
@@ -1190,7 +1191,7 @@
         "filename": "ussr_73_buryatskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1971
       },
@@ -1198,7 +1199,7 @@
         "filename": "ussr_73_gaz_a_1932",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1971
       },
@@ -1206,7 +1207,7 @@
         "filename": "ussr_73_kongress_mirolubivyh_sil",
         "alt": "",
         "category": [
-          ""
+          "Организации"
         ],
         "year": 1971
       },
@@ -1214,7 +1215,7 @@
         "filename": "ussr_73_olen",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1971
       },
@@ -1222,7 +1223,7 @@
         "filename": "ussr_73_tur",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1971
       },
@@ -1230,7 +1231,7 @@
         "filename": "ussr_73_ular",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1971
       },
@@ -1238,7 +1239,7 @@
         "filename": "ussr_73_university_moscow",
         "alt": "",
         "category": [
-          ""
+          "Спорт"
         ],
         "year": 1971
       },
@@ -1246,7 +1247,7 @@
         "filename": "ussr_73_ya_6_1929",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1971
       },
@@ -1254,7 +1255,7 @@
         "filename": "ussr_74_800_let_poltave",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1974
       },
@@ -1262,7 +1263,7 @@
         "filename": "ussr_74_expo",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1974
       },
@@ -1270,7 +1271,7 @@
         "filename": "ussr_74_gaz_03_30_1933",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1974
       },
@@ -1278,7 +1279,7 @@
         "filename": "ussr_74_grenlandskiy_kit",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1974
       },
@@ -1286,7 +1287,7 @@
         "filename": "ussr_74_kulan",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1974
       },
@@ -1294,7 +1295,7 @@
         "filename": "ussr_74_morskoy_kotik",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1974
       },
@@ -1302,7 +1303,7 @@
         "filename": "ussr_74_nahichivanskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1974
       },
@@ -1310,7 +1311,7 @@
         "filename": "ussr_74_saygak",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1974
       },
@@ -1318,7 +1319,7 @@
         "filename": "ussr_74_severnaya_osetia_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1974
       },
@@ -1326,7 +1327,7 @@
         "filename": "ussr_74_turkmenskaya_ssr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1974
       },
@@ -1334,7 +1335,7 @@
         "filename": "ussr_74_uzbekskaya_ssr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1974
       },
@@ -1342,7 +1343,7 @@
         "filename": "ussr_74_vihuhol",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1974
       },
@@ -1350,7 +1351,7 @@
         "filename": "ussr_74_zis_5_1993",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1974
       },
@@ -1358,7 +1359,7 @@
         "filename": "ussr_74_zis_8_1934",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1974
       },
@@ -1366,7 +1367,7 @@
         "filename": "ussr_74_zis_101_1936",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1974
       },
@@ -1374,7 +1375,7 @@
         "filename": "ussr_75_expo_2",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1975
       },
@@ -1382,7 +1383,7 @@
         "filename": "ussr_75_expo_3",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1975
       },
@@ -1390,7 +1391,7 @@
         "filename": "ussr_75_expo_4",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1975
       },
@@ -1398,7 +1399,7 @@
         "filename": "ussr_75_expo_5",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1975
       },
@@ -1406,7 +1407,7 @@
         "filename": "ussr_75_expo",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1975
       },
@@ -1414,7 +1415,7 @@
         "filename": "ussr_75_gaz_76b_1943",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1975
       },
@@ -1422,7 +1423,7 @@
         "filename": "ussr_75_gaz_m_1_1936",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1975
       },
@@ -1430,7 +1431,7 @@
         "filename": "ussr_75_karakalpaskaya_assr",
         "alt": "",
         "category": [
-          ""
+          "Места"
         ],
         "year": 1975
       },
@@ -1438,7 +1439,7 @@
         "filename": "ussr_75_kim_10_1940",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1975
       },
@@ -1446,7 +1447,7 @@
         "filename": "ussr_75_yag_3_1936",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1975
       },
@@ -1454,7 +1455,7 @@
         "filename": "ussr_76_gaz_51_1946",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1976
       },
@@ -1462,7 +1463,7 @@
         "filename": "ussr_76_souz_19_apallon",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ],
         "year": 1976
       },
@@ -1470,7 +1471,7 @@
         "filename": "ussr_76_trenev",
         "alt": "",
         "category": [
-          ""
+          "Персонажи"
         ],
         "year": 1976
       },
@@ -1478,7 +1479,7 @@
         "filename": "ussr_76_zis_110_1945",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1976
       },
@@ -1486,7 +1487,7 @@
         "filename": "ussr_76_zis_150_1947",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1976
       },
@@ -1494,7 +1495,7 @@
         "filename": "ussr_77_efa",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1977
       },
@@ -1502,7 +1503,7 @@
         "filename": "ussr_77_gadyka",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1977
       },
@@ -1510,7 +1511,7 @@
         "filename": "ussr_77_gurza",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1977
       },
@@ -1518,7 +1519,7 @@
         "filename": "ussr_77_kobra",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1977
       },
@@ -1526,7 +1527,7 @@
         "filename": "ussr_77_shitomordnik",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1977
       },
@@ -1534,7 +1535,7 @@
         "filename": "ussr_78_imperatorskiy_pingvin",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1978
       },
@@ -1542,7 +1543,7 @@
         "filename": "ussr_78_morskoi_slon",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1978
       },
@@ -1550,7 +1551,7 @@
         "filename": "ussr_78_passazhirskiy_paravoz",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1978
       },
@@ -1558,7 +1559,7 @@
         "filename": "ussr_78_shuka",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1978
       },
@@ -1566,7 +1567,7 @@
         "filename": "ussr_78_snezhniy_burevestnik",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1978
       },
@@ -1574,7 +1575,7 @@
         "filename": "ussr_78_tovarniy_poezd",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ],
         "year": 1978
       },
@@ -1582,7 +1583,7 @@
         "filename": "ussr_78_zhertokryliy_pingvin",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1978
       },
@@ -1590,7 +1591,7 @@
         "filename": "ussr_79_interkosmos_2",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ],
         "year": 1979
       },
@@ -1598,7 +1599,7 @@
         "filename": "ussr_79_interkosmos",
         "alt": "",
         "category": [
-          ""
+          "Космос"
         ],
         "year": 1979
       },
@@ -1606,7 +1607,7 @@
         "filename": "ussr_80_olympics_2",
         "alt": "",
         "category": [
-          ""
+          "Спорт"
         ],
         "year": 1980
       },
@@ -1614,7 +1615,7 @@
         "filename": "ussr_80_olympics_3",
         "alt": "",
         "category": [
-          ""
+          "Спорт"
         ],
         "year": 1980
       },
@@ -1622,7 +1623,7 @@
         "filename": "ussr_80_olympics_4",
         "alt": "",
         "category": [
-          ""
+          "Спорт"
         ],
         "year": 1980
       },
@@ -1630,7 +1631,7 @@
         "filename": "ussr_80_olympics_5",
         "alt": "",
         "category": [
-          ""
+          "Спорт"
         ],
         "year": 1980
       },
@@ -1638,7 +1639,7 @@
         "filename": "ussr_80_olympics",
         "alt": "",
         "category": [
-          ""
+          "Спорт"
         ],
         "year": 1980
       },
@@ -1646,7 +1647,7 @@
         "filename": "ussr_80_pesets",
         "alt": "",
         "category": [
-          ""
+          "Животные"
         ],
         "year": 1980
       },
@@ -1654,56 +1655,56 @@
         "filename": "ussr_day_of_vvs",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "ussr_hockey",
         "alt": "",
         "category": [
-          ""
+          "Спорт"
         ]
       },
       {
         "filename": "ussr_il_14",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "ussr_il_18",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "ussr_tu_104",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "ussr_tu_110",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "ussr_tu_114",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "ussr_tu_an_10",
         "alt": "",
         "category": [
-          ""
+          "Транспорт"
         ]
       }
     ]
@@ -1713,58 +1714,58 @@
     "images": [
       {
         "filename": "vietnam_tyrannosaurus",
-        "alt": "",
+        "alt": "THÄN LÄN SÄM 20 ",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "vietnam_brontosaurus",
-        "alt": "",
+        "alt": "THÄN LÄN SÄM 12 ",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "vietnam_iguanodon",
-        "alt": "",
+        "alt": "THÄN LÄN AN CO 20",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "vietnam_mozasaurus",
-        "alt": "",
+        "alt": "THÄN LÄN CÁ 50 ",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "vietnam_plesiosaurus",
-        "alt": "",
+        "alt": "THÄN LÄN RUA CORÄN 12 ",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "vietnam_pteranodon",
-        "alt": "",
+        "alt": "THÄN LÄN CO CÁNH 1,00",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "vietnam_stecosaurus",
-        "alt": "",
+        "alt": "THÄN LÄN GAI DUÖI 40",
         "category": [
-          ""
+          "Животные"
         ]
       },
       {
         "filename": "vietnam_triceratop",
-        "alt": "",
+        "alt": "THÄN LÄN BA SÜNG 60",
         "category": [
-          ""
+          "Животные"
         ]
       }
     ]
@@ -1774,23 +1775,23 @@
     "images": [
       {
         "filename": "yemen_honouring_astronauts",
-        "alt": "",
+        "alt": "1/2B. AIR MAIL YEMEN ARAB REPUBLIC HONOURING ASTRONAUTS",
         "category": [
-          ""
+          "Космос"
         ]
       },
       {
         "filename": "yemen_honouring_astronauts_2",
-        "alt": "",
+        "alt": "1/4B. AIR MAIL YEMEN ARAB REPUBLIC HONOURING ASTRONAUTS",
         "category": [
-          ""
+          "Космос"
         ]
       },
       {
         "filename": "yemen_honouring_astronauts_3",
-        "alt": "",
+        "alt": "1/3B. AIR MAIL YEMEN ARAB REPUBLIC HONOURING ASTRONAUTS",
         "category": [
-          ""
+          "Космос"
         ]
       }
     ]
@@ -1800,16 +1801,16 @@
     "images": [
       {
         "filename": "yugoslavia_fnr",
-        "alt": "",
+        "alt": "ФНР Jyгославиja 1 DIN",
         "category": [
-          ""
+          "Транспорт"
         ]
       },
       {
         "filename": "yugoslavia_fnr_2",
-        "alt": "",
+        "alt": "ФНР Jyгославиja 2 DIN",
         "category": [
-          ""
+          "Транспорт"
         ]
       }
     ]

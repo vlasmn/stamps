@@ -1,5 +1,5 @@
 const Image = require("@11ty/eleventy-img");
-const gallery = require('./src/gallery.json');
+const gallery = require('./src/_data/gallery.json');
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addCollection("processedGallery", async function() {
@@ -11,8 +11,8 @@ module.exports = function(eleventyConfig) {
 		  for (const image of data.images) {
 			let src = `src/images/${country}/${image.filename}.png`;
 			let metadata = await Image(src, {
-			  widths: [320, 640, 960, 1200, 1800, 2140],
-			  formats: ["webp", "avif", "png"],
+			  widths: [640, 960, 1200, 1800, 2140],
+			  formats: ["webp", "avif"],
 			  outputDir: "./dist/images/",
 			  urlPath: "/images/"
 			});
@@ -26,13 +26,22 @@ module.exports = function(eleventyConfig) {
 				loading: "lazy",
 				decoding: "async"
 			  }),
-			  url: metadata.png[metadata.png.length - 1].url
+			  url: metadata.webp[metadata.webp.length - 1].url
 			});
 		  }
 		}
 
 		return processedGallery;
 	  });
+
+	eleventyConfig.addNunjucksFilter("sortAlpha", function(array) {
+	return array.sort();
+	});
+
+	eleventyConfig.addNunjucksFilter("sortNumeric", function(array) {
+	return array.sort((a, b) => a - b);
+	});
+
 
 	  eleventyConfig.addCollection("gallery", function() {
       return gallery;
