@@ -77,7 +77,7 @@ $(window).on('load', function() {
         instance.$refs.bg.css('opacity', '0');
       },
       caption: function(instance, item) {
-        return '<a href="' + item.src + '" target="_blank" class="original-link">Оригинал</a>';
+        return '';
       }
     });
   }
@@ -106,7 +106,7 @@ $(window).on('load', function() {
         instance.$refs.bg.css('opacity', '0');
       },
       caption: function(instance, item) {
-        return '<a href="' + item.src + '" target="_blank" class="original-link">Оригинал</a>';
+        return '';
       }
     });
   }
@@ -212,4 +212,22 @@ $(window).on('load', function() {
     updateFancyBox(); // Update FancyBox after reset
     updateIsotope(); // Update Isotope after reset
   });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const gallery = document.querySelector('.gallery');
+  const items = Array.from(gallery.querySelectorAll('.gallery-item'));
+  items.forEach(item => gallery.removeChild(item));
+
+  // Функция для перемешивания массива
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  // Перемешиваем и вставляем элементы обратно в галерею
+  shuffleArray(items);
+  items.forEach(item => gallery.appendChild(item));
 });
