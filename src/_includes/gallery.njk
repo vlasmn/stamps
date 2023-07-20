@@ -1,0 +1,62 @@
+<div class="filter-wrapper">
+  <div class="filter-group" id="filter">
+
+    <!-- Категории -->
+    {% set uniqueCategory = [] %}
+    {% for country, data in collections.gallery %}
+      {% for image in data.images %}
+        {% if image.category %}
+          {% for tag in image.category %}
+            {% if uniqueCategory.indexOf(tag) == -1 %}
+              {% set _ = uniqueCategory.push(tag) %}
+              <button class="filter-button" data-filter-type="category" data-filter-value="{{ tag }}">{{ tag }}</button>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    <!-- Страна -->
+    {% for country, years in collections.gallery %}
+      <button class="filter-button {% if country == activeCountry %}active{% endif %}" data-filter-type="country" data-filter-value="{{ country }}">{{ collections.gallery[country].title }}</button>
+    {% endfor %}
+
+    <!-- Год -->
+    {% set uniqueYears = [] %}
+    {% for country, data in collections.gallery %}
+      {% for image in data.images %}
+        {% if image.year and uniqueYears.indexOf(image.year) == -1 %}
+          {% set _ = uniqueYears.push(image.year) %}
+            <button class="filter-button {% if image.year == activeYear %}active{% endif %}" data-filter-type="year" data-filter-value="{{ image.year }}">{{ image.year }}</button>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    <button id="filter-more-button">Ещё</button>
+    <button id="reset-button" style="display: none;">Сбросить</button>
+  </div>
+</div>
+
+<!-- Если ничего не найдено -->
+<div id="no-results-message" style="display: none;">Марки по вашему запросу решили отдохнуть. Они попросили передать вам этот смайлик (▰˘◡˘▰)</div>
+
+<!-- Галерея -->
+<div class="gallery">
+  <div class="grid-sizer"></div>
+{% for item in collections.processedGallery %}
+  <div class="gallery-item emerge"
+    data-country="{{ item.country }}"
+    {% if item.year %}
+      data-year="{{ item.year }}"
+    {% endif %}
+    {% if item.category %}
+      data-category="{{ item.category | join(', ') }}"
+    {% endif %}
+    data-effect="relax" data-origin="bottom" data-hold="0" data-expose="true"
+  >
+  <a data-fancybox="gallery" href="{{ item.url }}">
+    {{ item.html | safe }}
+  </a>
+  </div>
+{% endfor %}
+</div>
