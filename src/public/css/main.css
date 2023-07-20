@@ -1,0 +1,304 @@
+@font-face {
+  font-display: swap;
+  font-family: Martian Grotesk;
+  font-stretch: 75% 200%;
+  font-style: normal;
+  font-weight: 100 1000;
+  src: url("/fonts/MartianGrotesk-VFVF.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+--font-family: "Martian Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+
+--line-height: 1.5;
+--font-weight: 350;
+--font-size: 17px;
+
+--accent-color: rgba(180, 150, 110, 1);
+--accent-hover-color: rgba(214, 254, 81, 1);
+--background-color: rgba(0, 0, 0, 1);
+--text-color: rgba(255, 255, 255, 1);
+--text-color-secondary: rgba(255, 255, 255, 0.7);
+}
+
+html, body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+font-weight: 400;
+line-height: 1.1;
+font-size: 3em;
+margin: 32px 0 8px;
+letter-spacing: -1.2;
+}
+
+h2 {
+font-weight: var(--font-weight);
+margin: 32px 0 8px;
+}
+
+p {
+margin: 16px 0;
+}
+
+figure {
+margin: 0;
+}
+
+a {
+color: rgb(var(--accent-color-rgb));
+text-decoration: none;
+border-bottom: 1px solid rgba(var(--accent-color-rgb), 0.2);
+}
+
+a:hover, a.hover  {
+color: rgb(var(--accent-hover-color-rgb));
+border-bottom: 1px solid rgba(var(--accent-hover-color-rgb), 0.2);
+}
+
+a img {
+border-bottom: none;
+}
+
+.logotype {
+z-index: 9999;
+position: fixed;
+right: 8;
+top: 8;
+height: 56px;
+width: 56px;
+}
+
+.icon, .icon:hover {
+border-bottom: none;
+}
+
+main {
+max-width: 1600px;
+margin: 0 auto;
+width: 100%;
+box-sizing: border-box;
+padding: 20px;
+}
+
+  .title {
+    text-transform: uppercase;
+    font-size: calc(1px + 9vw);
+    line-height: calc(1px + 8vw);
+    font-weight: 1000;
+    font-stretch: 200%;
+    color: var(--accent-color);
+  }
+
+  .title a, .title a:hover {
+    border-bottom: none;
+  }
+
+  .counter {
+    font-weight: 860;
+    font-size: 32px;
+    line-height: 64px;
+    vertical-align: text-top;
+    letter-spacing: 1;
+  }
+
+  .intro {
+    margin: 8px 0 16px 0;
+    max-width: 80%;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+    font-stretch: 100%;
+  }
+
+  .gallery-item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .gallery-item.hidden {
+    display: none;
+  }
+
+  .gallery-item {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+  .grid-sizer {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block; /* Устраняет проблему с отступом снизу */
+  }
+
+
+
+  /*@media (max-width: 1024px) {
+    .gallery {
+      column-count: 5;
+      column-gap: 32px;
+    }
+    .gallery-item {
+    margin-bottom: 32px;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .gallery {
+      column-count: 4;
+      column-gap: 32px;
+    }
+    .gallery-item {
+    margin-bottom: 32px;
+    }
+
+  }
+
+  @media (max-width: 475px) {
+    .gallery {
+      column-count: 2;
+      column-gap: 20px;
+    }
+    .gallery-item {
+    margin-bottom: 20px;
+    }
+  */
+
+  .support {
+    border-top: 1px solid rgba(82, 82, 82, 0.5);
+    display: flex;
+    margin-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .support p {
+    margin: 0;
+  }
+
+  .support .column, .support h3  {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-stretch: 100%;
+  }
+
+  .support .reason {
+    color: var(--text-color-secondary);
+  }
+
+  .support .column {
+    width: 70%;
+  }
+  .support .column > div {
+    margin-bottom: 20px;
+  }
+
+  .my-fancybox .fancybox-button {
+    background-color: transparent;
+  }
+
+  .my-fancybox .fancybox-button:hover {
+    background-color: transparent;
+  }
+
+  .filter-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+    margin: 0 0 32px -8px;
+  }
+
+  #filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    row-gap: 4px;
+    margin-bottom: 6px;
+    width: 80%;
+  }
+
+  .filter-button, #reset-button, #filter-more-button {
+    padding: 4px 8px;
+    background: none;
+    color: var(--text-color-secondary);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 300;
+  }
+  #reset-button, #filter-more-button {
+    color: var(--accent-color);
+  }
+
+  .filter-button:hover, #reset-button:hover, #filter-more-button:hover {
+    background: rgba(25, 25, 25, 1);
+    color: var(--text-color);
+  }
+
+  .filter-button.active {
+    background-color: var(--accent-hover-color);
+    color: var(--background-color);
+  }
+
+  .filter-group {
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-button {
+    display: none;
+  }
+
+  .filter-button:nth-child(-n+16) {
+    display: inline-block;
+  }
+
+  #no-results-message {
+    background: none;
+    color: var(--text-color-secondary);
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 70%;
+    margin: 64px 0;
+  }
+
+  img.blur-up {
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      transition: filter 500ms, -webkit-filter 500ms;
+  }
+
+  img.blur-up.lazyloaded {
+      -webkit-filter: blur(0);
+      filter: blur(0);
+  }
