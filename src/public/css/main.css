@@ -55,7 +55,7 @@ a img {
 }
 
   #content {
-    padding: 0 20px 0 20px;
+    padding: 10px;
   }
 
   #header, #footer {
@@ -93,10 +93,14 @@ a img {
   height: 0;
 }
 
+.gallery {
+  opacity: 0;
+}
+
 .gallery__item {
   box-sizing: border-box;
-  padding: 32px;
-  margin-bottom: 32px;
+  padding: 20px;
+
 }
 
 .gallery__item img {
@@ -111,22 +115,19 @@ a img {
 
   @media (max-width: 1024px) {
     .gallery__item {
-      padding: 24px;
-      margin-bottom: 24px;
+      padding: 8px;
     }
   }
 
   @media (max-width: 768px) {
     .gallery__item {
-      padding: 16px;
-      margin-bottom: 16px;
+      padding: 8px;
     }
   }
 
-  @media (max-width: 365px) {
+  @media (max-width: 475px) {
     .gallery__item {
       padding: 8px;
-      margin-bottom: 8px;
     }
   }
 
@@ -153,7 +154,7 @@ a img {
     justify-content: flex-start;
     align-items: center;
     gap: 2px;
-    margin: 0 0 32px -8px;
+    margin: 0 20px 32px 8px
   }
 
   .filter__button, #filter__reset, #filter__more {
@@ -203,5 +204,5 @@ a img {
   font-weight: 300;
   line-height: 32px;
   width: 70%;
-  margin: 64px 0;
+  margin: 64px 10px;
 }
