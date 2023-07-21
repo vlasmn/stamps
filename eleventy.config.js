@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
 			for (const image of data.images) {
 				let src = `src/images/${country}/${image.filename}.png`;
 				let metadata = await Image(src, {
-					widths: [600, 960, 2140],
+					widths: [20, 600, 960, 2140],
 					formats: ["webp", "jpg"],
 					outputDir: "./dist/images/",
 					urlPath: "/images/"
@@ -30,9 +30,11 @@ module.exports = function(eleventyConfig) {
 					html: Image.generateHTML(filteredMetadata, {
 						alt: image.alt,
 						sizes: "(min-width: 1024px) 1024px, 100vw",
-						loading: "lazy",
+						class: "lazyload",
 						decoding: "async"
-					}),
+					}, {
+						whitespaceMode: "inline"
+					}).replace(/srcset/g, "data-srcset").replace(/src="/g, `data-src="${metadata.webp[metadata.webp.length - 1].url}" src="${metadata.webp[0].url}"`),
 					// Сохраните ссылку на самую большую версию изображения для Fancybox
 					url: metadata.webp[metadata.webp.length - 1].url
 				});
@@ -44,27 +46,27 @@ module.exports = function(eleventyConfig) {
 
 
 	eleventyConfig.addNunjucksFilter("sortAlpha", function(array) {
-	return array.sort();
+		return array.sort();
 	});
 
 	eleventyConfig.addNunjucksFilter("sortNumeric", function(array) {
-	return array.sort((a, b) => a - b);
+		return array.sort((a, b) => a - b);
 	});
 
 
-	  eleventyConfig.addCollection("gallery", function() {
-      return gallery;
-    });
+	eleventyConfig.addCollection("gallery", function() {
+		return gallery;
+	});
 
-    eleventyConfig.addPassthroughCopy({
-      "src/public/": "/",
-    });
+	eleventyConfig.addPassthroughCopy({
+		"src/public/": "/",
+	});
 
-    return {
-      dir: {
-        input: "src",
-		output: "dist"
-      }
-    }
+	return {
+		dir: {
+			input: "src",
+			output: "dist"
+		}
+	}
 
-  };
+};
