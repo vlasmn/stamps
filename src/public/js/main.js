@@ -11,6 +11,7 @@ $(window).on('load', function() {
         columnWidth: '.grid_sizer',
       }
     });
+    $gallery.css('opacity', '1');
   });
 
   $(window).resize(function() {
