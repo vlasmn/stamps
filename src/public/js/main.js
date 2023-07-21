@@ -11,7 +11,6 @@ $(window).on('load', function() {
         columnWidth: '.grid_sizer',
       }
     });
-    $gallery.css('opacity', '1');
   });
 
   $(window).resize(function() {
@@ -120,7 +119,6 @@ $(window).on('load', function() {
   $(document).ready(function() {
     initFancyBox();
     var resetButton = document.getElementById('filter__reset');
-    var noResultsMessage = document.getElementById('no-results-message');
     var filterCount = 16;
     var filterMoreButton = document.getElementById('filter__more');
     var filterButtons = document.querySelectorAll('.filter__button');
@@ -158,41 +156,44 @@ $(window).on('load', function() {
         var noResults = true;
 
         filteredImages.forEach(function(imageDiv) {
-          var matchesAllFilters = true;
+          var matchesAnyFilter = false;
           for (var filterType in activeFilters) {
             if (activeFilters.hasOwnProperty(filterType)) {
               if (filterType === 'category') {
                 var imageCategories = imageDiv.getAttribute('data-category').split(', ').map(s => s.trim());
-                if (!activeFilters[filterType].some(value => imageCategories.includes(value))) {
-                  matchesAllFilters = false;
+                if (activeFilters[filterType].some(value => imageCategories.includes(value))) {
+                  matchesAnyFilter = true;
                   break;
                 }
               } else if (filterType === 'country') {
-                if (!activeFilters[filterType].includes(imageDiv.getAttribute('data-country'))) {
-                  matchesAllFilters = false;
+                if (activeFilters[filterType].includes(imageDiv.getAttribute('data-country'))) {
+                  matchesAnyFilter = true;
                   break;
                 }
               } else if (filterType === 'year') {
-                if (!activeFilters[filterType].includes(imageDiv.getAttribute('data-year'))) {
-                  matchesAllFilters = false;
+                if (activeFilters[filterType].includes(imageDiv.getAttribute('data-year'))) {
+                  matchesAnyFilter = true;
                   break;
                 }
               }
             }
           }
-          if (matchesAllFilters) {
-            noResults = false;
-            $(imageDiv).show(); // Show the image if it matches all filters
+          if (matchesAnyFilter) {
+            $(imageDiv).show(); // Show the image if it matches any filter
           } else {
-            $(imageDiv).hide(); // Hide the image if it doesn't match all filters
+            $(imageDiv).hide(); // Hide the image if it doesn't match any filter
           }
         });
 
-        var hasActiveFilters = Object.keys(activeFilters).length > 0;
-        resetButton.style.display = hasActiveFilters ? 'block' : 'none';
-        noResultsMessage.style.display = noResults ? 'block' : 'none';
-        updateFancyBox(); // Update FancyBox after filter changes
-        updateIsotope(); // Update Isotope after filter changes
+        var hasActiveFilters = Object.keys(activeFilters).length > 0
+        if (!hasActiveFilters) {
+          // Если активных фильтров нет, симулируем клик на кнопку "Сбросить"
+          resetButton.click();
+        } else {
+          resetButton.style.display = 'block';
+          updateFancyBox(); // Update FancyBox after filter changes
+          updateIsotope(); // Update Isotope after filter changes
+        }
       });
     });
 
@@ -202,14 +203,11 @@ $(window).on('load', function() {
       });
       $('.emerge').show(); // Show all images
       resetButton.style.display = 'none';
-      noResultsMessage.style.display = 'none';
       updateFancyBox(); // Update FancyBox after reset
       updateIsotope(); // Update Isotope after reset
     });
 
     var filteredImages = document.querySelectorAll('.gallery__item');
-    var noResults = filteredImages.length === 0;
-    noResultsMessage.style.display = noResults ? 'block' : 'none';
     updateFancyBox(); // Update FancyBox after reset
     updateIsotope(); // Update Isotope after reset
   });
