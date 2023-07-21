@@ -97,10 +97,6 @@ a img {
   height: 0;
 }
 
-.gallery {
-  opacity: 0;
-}
-
 .gallery__item {
   box-sizing: border-box;
   padding: 20px;
@@ -193,14 +189,3 @@ a img {
   .filter__button:nth-child(-n+16) {
     display: inline-block;
   }
-
-#no-results-message {
-  background: none;
-  color: rgba(var(--text-RGB), .7);
-  font-family: var(--font);
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 32px;
-  width: 70%;
-  margin: 64px 10px;
-}
