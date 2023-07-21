@@ -3,12 +3,12 @@ var $gallery;
 $(window).on('load', function() {
   $gallery = $('.gallery').imagesLoaded(function() {
     $gallery.isotope({
-      itemSelector: '.gallery-item',
+      itemSelector: '.gallery__item',
       filter: '*',
       percentPosition: true,
       transitionDuration: 0,
       masonry: {
-        columnWidth: '.grid-sizer',
+        columnWidth: '.grid_sizer',
       }
     });
   });
@@ -18,13 +18,13 @@ $(window).on('load', function() {
     var width = $gallery.width();
     var newColumnWidth = (width / columns).toFixed(3);
 
-    $('.grid-sizer, .gallery-item').css({
+    $('.grid_sizer, .gallery__item').css({
       'width': newColumnWidth + 'px'
     });
 
     $gallery.isotope({
       masonry: {
-        columnWidth: '.grid-sizer',
+        columnWidth: '.grid_sizer',
       }
     });
 
@@ -118,11 +118,11 @@ $(window).on('load', function() {
 
   $(document).ready(function() {
     initFancyBox();
-    var resetButton = document.getElementById('reset-button');
+    var resetButton = document.getElementById('filter__reset');
     var noResultsMessage = document.getElementById('no-results-message');
     var filterCount = 16;
-    var filterMoreButton = document.getElementById('filter-more-button');
-    var filterButtons = document.querySelectorAll('.filter-button');
+    var filterMoreButton = document.getElementById('filter__more');
+    var filterButtons = document.querySelectorAll('.filter__button');
 
     if (filterButtons.length > filterCount) {
       for (var i = filterCount; i < filterButtons.length; i++) {
@@ -138,13 +138,13 @@ $(window).on('load', function() {
       filterMoreButton.style.display = 'none';
     });
 
-    document.querySelectorAll('.filter-button').forEach(function(button) {
+    document.querySelectorAll('.filter__button').forEach(function(button) {
       button.addEventListener('click', function() {
         var filterType = this.getAttribute('data-filter-type');
         var filterValue = this.getAttribute('data-filter-value');
         button.classList.toggle('active');
         var activeFilters = {};
-        document.querySelectorAll('.filter-button.active').forEach(function(activeButton) {
+        document.querySelectorAll('.filter__button.active').forEach(function(activeButton) {
           var activeFilterType = activeButton.getAttribute('data-filter-type');
           var activeFilterValue = activeButton.getAttribute('data-filter-value');
           if (!activeFilters[activeFilterType]) {
@@ -196,7 +196,7 @@ $(window).on('load', function() {
     });
 
     resetButton.addEventListener('click', function() {
-      document.querySelectorAll('.filter-button').forEach(function(button) {
+      document.querySelectorAll('.filter__button').forEach(function(button) {
         button.classList.remove('active');
       });
       $('.emerge').show(); // Show all images
@@ -206,7 +206,7 @@ $(window).on('load', function() {
       updateIsotope(); // Update Isotope after reset
     });
 
-    var filteredImages = document.querySelectorAll('.gallery-item');
+    var filteredImages = document.querySelectorAll('.gallery__item');
     var noResults = filteredImages.length === 0;
     noResultsMessage.style.display = noResults ? 'block' : 'none';
     updateFancyBox(); // Update FancyBox after reset
@@ -216,7 +216,7 @@ $(window).on('load', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   const gallery = document.querySelector('.gallery');
-  const items = Array.from(gallery.querySelectorAll('.gallery-item'));
+  const items = Array.from(gallery.querySelectorAll('.gallery__item'));
   items.forEach(item => gallery.removeChild(item));
 
   // Функция для перемешивания массива

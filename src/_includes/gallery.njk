@@ -1,5 +1,5 @@
-<div class="filter-wrapper">
-  <div class="filter-group" id="filter">
+<div class="filter__wrapper">
+  <div class="filter__group" id="filter">
 <!-- Категории -->
     <!-- Категории -->
     {% set uniqueCategory = [] %}
@@ -16,7 +16,7 @@
     {% endfor %}
     {% set uniqueCategory = uniqueCategory | sortAlpha %}
     {% for tag in uniqueCategory %}
-      <button class="filter-button" data-filter-type="category" data-filter-value="{{ tag }}">{{ tag }}</button>
+      <button class="filter__button" data-filter-type="category" data-filter-value="{{ tag }}">{{ tag }}</button>
     {% endfor %}
 
     <!-- Страна -->
@@ -28,7 +28,7 @@
     {% endfor %}
     {% set uniqueCountries = uniqueCountries | sortAlpha %}
     {% for country in uniqueCountries %}
-      <button class="filter-button {% if country == activeCountry %}active{% endif %}" data-filter-type="country" data-filter-value="{{ country }}">{{ collections.gallery[country].title }}</button>
+      <button class="filter__button {% if country == activeCountry %}active{% endif %}" data-filter-type="country" data-filter-value="{{ country }}">{{ collections.gallery[country].title }}</button>
     {% endfor %}
 
     <!-- Год -->
@@ -42,23 +42,23 @@
     {% endfor %}
     {% set uniqueYears = uniqueYears | sortNumeric %}
     {% for year in uniqueYears %}
-        <button class="filter-button {% if year == activeYear %}active{% endif %}" data-filter-type="year" data-filter-value="{{ year }}">{{ year }}</button>
+        <button class="filter__button {% if year == activeYear %}active{% endif %}" data-filter-type="year" data-filter-value="{{ year }}">{{ year }}</button>
     {% endfor %}
 
 
-    <button id="filter-more-button">Ещё</button>
-    <button id="reset-button" style="display: none;">Сбросить</button>
+    <button id="filter__more">Ещё</button>
+    <button id="filter__reset" style="display: none;">Сбросить</button>
   </div>
 </div>
 
 <!-- Если ничего не найдено -->
-<div id="no-results-message" style="display: none;">Марки по вашему запросу решили отдохнуть. Они попросили передать вам этот смайлик (▰˘◡˘▰)</div>
+<div id="no-results-message" style="display: none;"> (▰˘◡˘▰) Таких марок пока нет, но вы можете дополнить коллекцию на <a href="https://github.com/vlasmn/stamps">гитхабе</a></div>
 
 <!-- Галерея -->
 <div class="gallery">
-  <div class="grid-sizer"></div>
+  <div class="grid_sizer"></div>
 {% for item in collections.processedGallery %}
-  <div class="gallery-item emerge"
+  <div class="gallery__item emerge"
     data-country="{{ item.country }}"
     {% if item.year %}
       data-year="{{ item.year }}"

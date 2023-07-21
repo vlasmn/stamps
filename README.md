@@ -2,9 +2,11 @@
 
 Открытая коллекция марок.
 
-Чтобы добавить марку свяжитесь со мной [@vlasmn](https://t.me/vlasme) или создайте Issue в этом репозитории.
+## Как добавить марку
 
-## Как это работает
+Сяжитесь со мной [@vlasmn](https://t.me/vlasme) или создайте Issue в этом репозитории.
+
+## Как работает
 Проект состоит из
 - [Сайта](stamps.pages.dev)
 - [Базы марок](https://docs.google.com/spreadsheets/d/11gihx9wG1Qo8Pu7ZBG0LuQkJXF3m_GUFZ23y2EuK7jw/edit#gid=0)
