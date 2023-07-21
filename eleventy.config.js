@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
 			let src = `src/images/${country}/${image.filename}.png`;
 			let metadata = await Image(src, {
 			  widths: [300, 600, 960, 1200, 1800, 2140],
-			  formats: ["webp, avif, png"],
+			  formats: ["webp", "avif", "png"],
 			  outputDir: "./dist/images/",
 			  urlPath: "/images/"
 			});
