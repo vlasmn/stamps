@@ -12,20 +12,18 @@
   <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/filter.js"></script>
 </head>
 <body>
-  <header>
-    <nav>
-    </nav>
+  <header id="header">
+    {% include "header.njk" %}
   </header>
 
-  <main>
+  <main id="content">
     {% block content %}{% endblock %}
   </main>
 
-  <footer>
+  <footer id="footer">
+    {% include "footer.njk" %}
   </footer>
-
 </body>
 </html>
