@@ -82,33 +82,36 @@ width: 56px;
 border-bottom: none;
 }
 
-main {
+#content, #header, #footer {
 max-width: 1600px;
 margin: 0 auto;
 width: 100%;
 box-sizing: border-box;
-padding: 20px;
 }
 
-  .title {
+#content {
+  padding: 0 20px 0 20px;
+}
+
+#header, #footer {
+  padding: 20px;
+}
+
+  #title {
     text-transform: uppercase;
     font-size: calc(1px + 9vw);
-    line-height: calc(1px + 8vw);
+    line-height: calc(1px + 10vw);
     font-weight: 1000;
     font-stretch: 200%;
     color: var(--accent-color);
   }
 
-  .title a, .title a:hover {
+  #title a, #title a:hover {
     border-bottom: none;
   }
 
-  .counter {
-    font-weight: 860;
-    font-size: 32px;
-    line-height: 64px;
-    vertical-align: text-top;
-    letter-spacing: 1;
+  #title a:hover {
+    color: #fff;
   }
 
   .intro {
