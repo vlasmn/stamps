@@ -1,7 +1,7 @@
 <div class="filter__wrapper">
   <div class="filter__group" id="filter">
-<!-- Категории -->
-    <!-- Категории -->
+
+  <!-- Категории -->
     {% set uniqueCategory = [] %}
     {% for country, data in collections.gallery %}
       {% for image in data.images %}
@@ -19,7 +19,7 @@
       <button class="filter__button" data-filter-type="category" data-filter-value="{{ tag }}">{{ tag }}</button>
     {% endfor %}
 
-    <!-- Страна -->
+    <!-- Страны -->
     {% set uniqueCountries = [] %}
     {% for country, years in collections.gallery %}
       {% if uniqueCountries.indexOf(country) == -1 %}
@@ -31,7 +31,7 @@
       <button class="filter__button {% if country == activeCountry %}active{% endif %}" data-filter-type="country" data-filter-value="{{ country }}">{{ collections.gallery[country].title }}</button>
     {% endfor %}
 
-    <!-- Год -->
+    <!-- Года -->
     {% set uniqueYears = [] %}
     {% for country, data in collections.gallery %}
       {% for image in data.images %}
@@ -45,14 +45,10 @@
         <button class="filter__button {% if year == activeYear %}active{% endif %}" data-filter-type="year" data-filter-value="{{ year }}">{{ year }}</button>
     {% endfor %}
 
-
     <button id="filter__more">Ещё</button>
     <button id="filter__reset" style="display: none;">Сбросить</button>
   </div>
 </div>
-
-<!-- Если ничего не найдено -->
-<div id="no-results-message" style="display: none;"> (▰˘◡˘▰) Таких марок пока нет, но вы можете дополнить коллекцию на <a href="https://github.com/vlasmn/stamps">гитхабе</a></div>
 
 <!-- Галерея -->
 <div class="gallery">
