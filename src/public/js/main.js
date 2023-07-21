@@ -43,7 +43,7 @@ $(window).on('load', function() {
       columnNumber = 4;
     } else if (windowWidth > 768) {
       columnNumber = 3;
-    } else if (windowWidth > 480) {
+    } else if (windowWidth > 365) {
       columnNumber = 2;
     } else {
       columnNumber = 1;
