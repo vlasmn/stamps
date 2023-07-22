@@ -84,7 +84,7 @@ $(window).on('load', function() {
 
   function updateFancyBox() {
     $.fancybox.destroy();
-    var visibleImages = $(".emerge:visible a");
+    var visibleImages = $(".gallery__item:visible a");
     visibleImages.attr("data-fancybox", "visible-gallery");
     visibleImages.fancybox({
       touch: true,
@@ -152,7 +152,7 @@ $(window).on('load', function() {
           activeFilters[activeFilterType].push(activeFilterValue);
         });
 
-        var filteredImages = document.querySelectorAll('.emerge');
+        var filteredImages = document.querySelectorAll('.gallery__item');
         var noResults = true;
 
         filteredImages.forEach(function(imageDiv) {
@@ -201,7 +201,7 @@ $(window).on('load', function() {
       document.querySelectorAll('.filter__button').forEach(function(button) {
         button.classList.remove('active');
       });
-      $('.emerge').show(); // Show all images
+      $('.gallery__item').show(); // Show all images
       resetButton.style.display = 'none';
       updateFancyBox(); // Update FancyBox after reset
       updateIsotope(); // Update Isotope after reset
