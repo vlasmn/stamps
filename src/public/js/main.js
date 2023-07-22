@@ -230,8 +230,3 @@ document.addEventListener('DOMContentLoaded', function() {
   shuffleArray(items);
   items.forEach(item => gallery.appendChild(item));
 });
-
-document.addEventListener("DOMContentLoaded", function() {
-  var lazyloadImages = document.querySelectorAll(".lazyload");
-  new LazyLoad(lazyloadImages);
-});

@@ -2,48 +2,52 @@ const Image = require("@11ty/eleventy-img");
 const gallery = require('./src/_data/gallery.json');
 
 module.exports = function(eleventyConfig) {
-	eleventyConfig.addCollection("processedGallery", async function() {
-		const processedGallery = [];
 
-		for (const country in gallery) {
-			const data = gallery[country];
+    eleventyConfig.addCollection("processedGallery", async function() {
+        const processedGallery = [];
 
-			for (const image of data.images) {
-				let src = `src/images/${country}/${image.filename}.png`;
-				let metadata = await Image(src, {
-					widths: [20, 600, 960, 2140],
-					formats: ["webp", "jpg"],
-					outputDir: "./dist/images/",
-					urlPath: "/images/"
-				});
+        for (const country in gallery) {
+            const data = gallery[country];
 
-				let filteredMetadata = { ...metadata };
+            for (const image of data.images) {
+                let src = `src/images/${country}/${image.filename}.png`;
 
-				// Удалите из метаданных изображения большие размеры
-				for (let format in filteredMetadata) {
-					filteredMetadata[format] = filteredMetadata[format].filter(image => image.width < 1200);
-				}
+                let metadata = await Image(src, {
+                    widths: [20, 300, 600, 960, 1200, 2140],
+                    formats: ["webp", "jpeg"],
+                    outputDir: "./dist/images/",
+                    urlPath: "/images/"
+                });
 
-				processedGallery.push({
-					...image,
-					country: country,
-					html: Image.generateHTML(filteredMetadata, {
-						alt: image.alt,
-						sizes: "(min-width: 1024px) 1024px, 100vw",
-						class: "lazyload",
-						decoding: "async"
-					}, {
-						whitespaceMode: "inline"
-					}).replace(/srcset/g, "data-srcset").replace(/src="/g, `data-src="${metadata.webp[metadata.webp.length - 1].url}" src="${metadata.webp[0].url}"`),
-					// Сохраните ссылку на самую большую версию изображения для Fancybox
-					url: metadata.webp[metadata.webp.length - 1].url
-				});
-			}
-		}
+                let lowestSrc = metadata["jpeg"][0];
+                let filteredMetadata = { ...metadata };
 
-		return processedGallery;
-	});
+                // Удалите из метаданных изображения большие размеры
+                for (let format in filteredMetadata) {
+                    filteredMetadata[format] = filteredMetadata[format].filter(image => image.width <= 960);
+                }
 
+                // Создание srcset
+                const srcset = filteredMetadata["webp"].map(
+                    item => `${item.url} ${item.width}w`).join(", ");
+
+                processedGallery.push({
+                    ...image,
+                    country: country,
+                    html: `<img src="${lowestSrc.url}" 
+                                 data-srcset="${srcset}" 
+                                 sizes="(min-width: 1024px) 1024px, 100vw"
+                                 width="${lowestSrc.width}" 
+                                 height="${lowestSrc.height}" 
+                                 class="lazyload"
+                                 alt="${image.alt}">`,
+                    url: metadata.webp[metadata.webp.length - 1].url
+                });
+            }
+        }
+
+        return processedGallery;
+    });
 
 	eleventyConfig.addNunjucksFilter("sortAlpha", function(array) {
 		return array.sort();
