@@ -30,6 +30,16 @@ html, body {
   padding: 0;
 }
 
+body {
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto; 
+}
+
 a {
   color: rgba(var(--accent-RGB), 1);
   text-decoration: none;
@@ -45,29 +55,30 @@ a img {
   border-bottom: none;
 }
 
-#content, #header, #footer {
+main, header, footer {
   max-width: 1600px;
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
 }
 
-  #header {
-    padding: 20px 20px 10px 20px;
-  }
+header {
+  padding: 20px 20px 10px 20px;
+}
 
-  #footer {
-    padding: 0 20px 20px 20px;
-  }
+footer {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 4px;
+  flex-shrink: 0;
+  padding: 20px;
+}
 
-  #footer {
-    font-size: 14px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    row-gap: 4px;
-    margin-bottom: 6px;
-  }
+footer p {
+  margin: 0;
+}
 
 #title {
   display: block;
@@ -89,6 +100,15 @@ a img {
 .grid_sizer {
   visibility: hidden;
   height: 0;
+}
+
+.gallery {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery.is-ready {
+  opacity: 1;
 }
 
 .gallery__item {
