@@ -1,10 +1,26 @@
-<div id="title">
+<div id="title" class="emerge" data-effect="relax" data-origin="bottom" data-hold="0" data-expose="true">
   <a href="/">
     <div id="counter"></div>
   </a>
 </div>
 
 <script>
+
+$(document).ready(function(){
+  resizeFont();
+});
+
+$(window).on('resize', function(){
+  resizeFont();
+});
+
+function resizeFont() {
+  var width = $('#title').width();
+  var newFontSize = width * 0.1;
+  $('#title').css('font-size', newFontSize + 'px');
+  $('#title').css('line-height', (newFontSize) + 'px');
+}
+
 function declOfNum(number, titles) {
     const cases = [2, 0, 1, 1, 1, 2];
     return titles[(number % 100 > 4 && number % 100 < 20) ? 2 : cases[(number % 10 < 5) ? number % 10 : 5]];

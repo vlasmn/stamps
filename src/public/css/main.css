@@ -1,11 +1,9 @@
 @font-face {
-  font-display: swap;
   font-family: Martian Grotesk;
   font-stretch: 75% 200%;
   font-style: normal;
   font-weight: 100 1000;
   src: url("/fonts/MartianGrotesk-VFVF.woff2") format("woff2");
-  font-display: swap;
 }
 
 :root {
@@ -54,12 +52,8 @@ a img {
   box-sizing: border-box;
 }
 
-  #content {
-    padding: 10px;
-  }
-
   #header {
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 10px 20px;
   }
 
   #footer {
@@ -76,9 +70,9 @@ a img {
   }
 
 #title {
+  display: block;
+  width: 100%;
   text-transform: uppercase;
-  font-size: calc(1px + 9vw);
-  line-height: calc(1px + 10vw);
   font-weight: 1000;
   font-stretch: 200%;
   color: rgba(var(--accent-RGB), 1);
@@ -114,9 +108,6 @@ a img {
 }
 
   @media (max-width: 1024px) {
-    .gallery__item {
-      padding: 10px;
-    }
   }
 
   @media (max-width: 768px) {
@@ -127,10 +118,12 @@ a img {
 
 .my-fancybox .fancybox-button {
   background-color: transparent;
+  border-bottom: none;
 }
 
 .my-fancybox .fancybox-button:hover {
   background-color: transparent;
+  border-bottom: none;
 }
 
 #filter {
@@ -148,7 +141,7 @@ a img {
     justify-content: flex-start;
     align-items: center;
     gap: 2px;
-    margin: 0 20px 32px 8px
+    margin: 0 20px 32px 16px
   }
 
   .filter__button, #filter__reset, #filter__more {
