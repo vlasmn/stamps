@@ -49,6 +49,12 @@ module.exports = function(eleventyConfig) {
         return processedGallery;
     });
 
+      eleventyConfig.addNunjucksFilter('declOfNum', function(number) {
+        const cases = [2, 0, 1, 1, 1, 2];
+        let titles = ['марка', 'марки', 'марок'];
+        return titles[(number % 100 > 4 && number % 100 < 20) ? 2 : cases[(number % 10 < 5) ? number % 10 : 5]];
+      });
+      
 	eleventyConfig.addNunjucksFilter("sortAlpha", function(array) {
 		return array.sort();
 	});
@@ -63,7 +69,7 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPassthroughCopy({
-		"src/public/": "/",
+		"src/public/": "/"
 	});
 
 	return {
