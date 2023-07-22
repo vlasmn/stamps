@@ -69,8 +69,7 @@ module.exports = function(eleventyConfig) {
 	});
 
 	eleventyConfig.addPassthroughCopy({
-		"src/public/": "/",
-        "src/public/manifest.json": "/",
+		"src/public/": "/"
 	});
 
 	return {
