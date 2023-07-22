@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 <head>
+  {% set itemCount = collections.processedGallery | length %}
+  <title>{{ itemCount }} {{ itemCount | declOfNum }}</title>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Коллекция марок</title>
+  <meta property="og:title" content="{{ itemCount }} {{ itemCount | declOfNum }}">
+  <meta property="og:description" content="{{ metadata.description }}">
+  <meta property="og:image" content="{{ metadata.url + metadata.image }}">
+  <meta property="og:url" content="{{ metadata.url }}">
+
   <link rel="stylesheet" href="css/main.css">
+
   <script src="js/emerge.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
