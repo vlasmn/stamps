@@ -7,10 +7,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="{{ itemCount }} {{ itemCount | declOfNum }}">
+  <meta property="og:site_name" content="{{ itemCount }} {{ itemCount | declOfNum }}">
+  <meta property="name" content="{{ itemCount }} {{ itemCount | declOfNum }}">
   <meta property="og:description" content="{{ metadata.description }}">
   <meta property="og:image" content="{{ metadata.url + metadata.image }}">
   <meta property="og:url" content="{{ metadata.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="keywords" content="{{ metadata.keywords.join(', ') }}">
+
+  <link rel="preload" as="font" href="fonts/MartianGrotesk-VFVF.woff2">
 
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
