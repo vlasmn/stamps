@@ -1,6 +1,7 @@
 const Image = require("@11ty/eleventy-img");
 const gallery = require('./src/_data/gallery.json');
 const htmlnano = require("htmlnano");
+const path = require("path");
 
 module.exports = function(eleventyConfig) {
 
@@ -14,10 +15,16 @@ module.exports = function(eleventyConfig) {
                 let src = `src/images/${country}/${image.filename}.webp`;
 
                 let metadata = await Image(src, {
-                    widths: [12, 300, 600, 960, 1200, 2140],
-                    formats: ["webp", "jpeg"],
-                    outputDir: "./dist/images/",
-                    urlPath: "/images/"
+                widths: [12, 300, 600, 960, 1200, 2140],
+                formats: ["webp", "jpeg"],
+                outputDir: "./dist/images/",
+                urlPath: "/images/",
+                filenameFormat: function (id, src, width, format, options) {
+                    const extension = path.extname(src);
+                    const name = path.basename(src, extension).replace(/_/g, '-'); // замена нижних подчеркиваний на дефисы
+
+                    return `${name}-${width}w.${format}`;
+                }
                 });
 
                 let lowestSrc = metadata["jpeg"][0];
@@ -39,16 +46,18 @@ module.exports = function(eleventyConfig) {
                     ...image,
                     country: country,
                     html: `
-                    <picture>
-                        <source type="image/webp" data-srcset="${srcsetWebp}" sizes="(min-width: 1024px) 1024px, 100vw">
-                        <img 
-                             class="lazyload blur-up"
-                             src="${lowestSrc.url}" 
-                             data-src="${lowestSrc.url}" 
-                             sizes="(min-width: 1024px) 1024px, 100vw"
-                             data-srcset="${srcsetJpeg}" 
-                             alt="${image.alt}">
-                    </picture>`,
+                    <a href="${metadata.webp[metadata.webp.length - 1].url}" id="${image.filename.replace(/_/g, '-')}" data-fancybox="gallery">
+                        <picture>
+                            <source type="image/webp" data-srcset="${srcsetWebp}" sizes="(min-width: 1024px) 1024px, 100vw">
+                            <img 
+                                 class="lazyload blur-up"
+                                 src="${lowestSrc.url}" 
+                                 data-src="${lowestSrc.url}" 
+                                 sizes="(min-width: 1024px) 1024px, 100vw"
+                                 data-srcset="${srcsetJpeg}" 
+                                 alt="${image.alt}">
+                        </picture>
+                    </a>`,
                     url: metadata.webp[metadata.webp.length - 1].url
                 });
             }
