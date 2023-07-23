@@ -1,5 +1,6 @@
 const Image = require("@11ty/eleventy-img");
 const gallery = require('./src/_data/gallery.json');
+const htmlnano = require("htmlnano");
 
 module.exports = function(eleventyConfig) {
 
@@ -24,7 +25,7 @@ module.exports = function(eleventyConfig) {
 
                 // Удалите из метаданных изображения большие размеры
                 for (let format in filteredMetadata) {
-                    filteredMetadata[format] = filteredMetadata[format].filter(image => image.width <= 960);
+                    filteredMetadata[format] = filteredMetadata[format].filter(image => image.width <= 600);
                 }
 
                                 // Создание srcset
@@ -78,6 +79,18 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"src/public/": "/"
 	});
+    
+      eleventyConfig.addTransform("htmlnano", async function(content, outputPath) {
+    if( outputPath && outputPath.endsWith(".html") ) {
+      const options = {
+        collapseWhitespace: "conservative"
+      };
+
+      const result = await htmlnano.process(content, options);
+      return result.html;
+    }
+    return content;
+  });
 
 	return {
 		dir: {
