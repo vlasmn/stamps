@@ -29,3 +29,4 @@
 - [Моей жене Лере](https://t.me/vaalerushka), за оцифровку первой сотни марок
 - [Владу Гарбовскому](https://t.me/garbovsky), за фидбек по фильтрации
 - [ChatGPT](https://chat.openai.com), за написание кода
+- [Роману Шамину](https://github.com/romashamin), за пост в Твитере и шрифт
