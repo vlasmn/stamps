@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "htmlnano": "^2.0.4"
   },
   "dependencies": {
     "@11ty/eleventy-img": "^3.1.0"
