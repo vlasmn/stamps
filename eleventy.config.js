@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
                 let src = `src/images/${country}/${image.filename}.webp`;
 
                 let metadata = await Image(src, {
-                    widths: [1, 300, 600, 960, 1200, 2140],
+                    widths: [12, 300, 600, 960, 1200, 2140],
                     formats: ["webp", "jpeg"],
                     outputDir: "./dist/images/",
                     urlPath: "/images/"
@@ -27,20 +27,27 @@ module.exports = function(eleventyConfig) {
                     filteredMetadata[format] = filteredMetadata[format].filter(image => image.width <= 960);
                 }
 
-                // Создание srcset
-                const srcset = filteredMetadata["webp"].map(
+                                // Создание srcset
+                const srcsetWebp = filteredMetadata["webp"].map(
+                    item => `${item.url} ${item.width}w`).join(", ");
+
+                const srcsetJpeg = filteredMetadata["jpeg"].map(
                     item => `${item.url} ${item.width}w`).join(", ");
 
                 processedGallery.push({
                     ...image,
                     country: country,
-                    html: `<img src="${lowestSrc.url}" 
-                                 data-srcset="${srcset}" 
-                                 sizes="(min-width: 1024px) 1024px, 100vw"
-                                 width="${lowestSrc.width}" 
-                                 height="${lowestSrc.height}" 
-                                 class="lazyload"
-                                 alt="${image.alt}">`,
+                    html: `
+                    <picture>
+                        <source type="image/webp" data-srcset="${srcsetWebp}" sizes="(min-width: 1024px) 1024px, 100vw">
+                        <img 
+                             class="lazyload blur-up"
+                             src="${lowestSrc.url}" 
+                             data-src="${lowestSrc.url}" 
+                             sizes="(min-width: 1024px) 1024px, 100vw"
+                             data-srcset="${srcsetJpeg}" 
+                             alt="${image.alt}">
+                    </picture>`,
                     url: metadata.webp[metadata.webp.length - 1].url
                 });
             }
