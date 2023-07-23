@@ -1,7 +1,61 @@
-<div id="title" class="emerge" data-effect="relax" data-origin="bottom" data-hold="0" data-expose="true">
-  <a href="/">
-    <div id="counter"></div>
-  </a>
+<div  class="emerge" data-effect="relax" data-origin="bottom" data-hold="0" data-expose="true">
+  <div id="title">
+    <a href="/">
+      <div id="counter"></div>
+    </a>
+  </div>
+
+  <div class="filter__wrapper">
+    <div class="filter__group" id="filter">
+
+    <!-- Категории -->
+      {% set uniqueCategory = [] %}
+      {% for country, data in collections.gallery %}
+        {% for image in data.images %}
+          {% if image.category %}
+            {% for tag in image.category %}
+              {% if uniqueCategory.indexOf(tag) == -1 %}
+                {% set _ = uniqueCategory.push(tag) %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      {% set uniqueCategory = uniqueCategory | sortAlpha %}
+      {% for tag in uniqueCategory %}
+        <button class="filter__button" data-filter-type="category" data-filter-value="{{ tag }}">{{ tag }}</button>
+      {% endfor %}
+
+      <!-- Страны -->
+      {% set uniqueCountries = [] %}
+      {% for country, years in collections.gallery %}
+        {% if uniqueCountries.indexOf(country) == -1 %}
+          {% set _ = uniqueCountries.push(country) %}
+        {% endif %}
+      {% endfor %}
+      {% set uniqueCountries = uniqueCountries | sortAlpha %}
+      {% for country in uniqueCountries %}
+        <button class="filter__button {% if country == activeCountry %}active{% endif %}" data-filter-type="country" data-filter-value="{{ country }}">{{ collections.gallery[country].title }}</button>
+      {% endfor %}
+
+      <!-- Года -->
+      {% set uniqueYears = [] %}
+      {% for country, data in collections.gallery %}
+        {% for image in data.images %}
+          {% if image.year and uniqueYears.indexOf(image.year) == -1 %}
+            {% set _ = uniqueYears.push(image.year) %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      {% set uniqueYears = uniqueYears | sortNumeric %}
+      {% for year in uniqueYears %}
+          <button class="filter__button {% if year == activeYear %}active{% endif %}" data-filter-type="year" data-filter-value="{{ year }}">{{ year }}</button>
+      {% endfor %}
+
+      <button id="filter__more">Ещё</button>
+      <button id="filter__reset" style="display: none;">Сбросить</button>
+    </div>
+  </div>
 </div>
 
 <script>
