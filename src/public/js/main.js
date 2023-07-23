@@ -11,7 +11,7 @@ $(window).on('load', function() {
         columnWidth: '.grid_sizer',
       }
     });
-    $gallery.addClass('is-ready');
+    $gallery.addClass('is_ready');
   });
 
   $(window).resize(function() {

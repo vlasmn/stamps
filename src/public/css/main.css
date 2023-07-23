@@ -107,7 +107,7 @@ footer p {
   transition: opacity 0.3s ease-in-out;
 }
 
-.gallery.is-ready {
+.gallery.is_ready {
   opacity: 1;
 }
 
@@ -128,13 +128,20 @@ footer p {
 }
 
   @media (max-width: 1024px) {
-  }
-
-  @media (max-width: 768px) {
     #filter {
       width: 100% !important;
     }
   }
+
+  @media (max-width: 768px) {
+    .gallery {
+      padding: 0 10px 0 10px;
+    }
+    .gallery__item {
+      padding: 10px;
+    }
+  }
+
 
 .my-fancybox .fancybox-button {
   background-color: transparent;
@@ -202,3 +209,12 @@ footer p {
   .filter__button:nth-child(-n+16) {
     display: inline-block;
   }
+
+  .blur-up {
+    filter: blur(5px);
+    transition: filter 0.3s;
+}
+
+.blur-up.lazyloaded {
+    filter: blur(0);
+}
