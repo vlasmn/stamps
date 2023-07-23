@@ -57,60 +57,75 @@ $(window).on('load', function() {
     $gallery.isotope('layout');
   }
 
-  function initFancyBox() {
-    $("[data-fancybox='gallery']").fancybox({
-      touch: true,
-      arrows: true,
-      infobar: false,
-      buttons: [
-        'download',
-        'close'
-      ],
-      baseClass: 'my-fancybox',
-      loop: true,
-      clickOutside: true,
-      afterLoad: function(instance, current) {
-        instance.$refs.bg.css('background', 'rgba(0, 0, 0, 1)');
-        instance.$refs.bg.css('opacity', '1');
-      },
-      beforeClose: function(instance, current) {
-        instance.$refs.bg.css('background', 'rgba(0, 0, 0, 0)');
-        instance.$refs.bg.css('opacity', '0');
-      },
-      caption: function(instance, item) {
-        return '';
-      }
-    });
-  }
+function setupFancyBox(selector) {
+  $(selector).fancybox({
+    touch: true,
+    arrows: true,
+    infobar: false,
+    buttons: [
+      'download',
+      'close'
+    ],
+    baseClass: 'my-fancybox',
+    loop: true,
+    clickOutside: true,
+    hash: false, // отключите автоматическое обновление URL
+    afterLoad: function(instance, current) {
+      instance.$refs.bg.css('background', 'rgba(0, 0, 0, 1)');
+      instance.$refs.bg.css('opacity', '1');
+    },
+    afterShow: function(instance, current) {
+      history.replaceState(null, null, '#' + current.opts.$orig[0].id);
+    },
+    beforeClose: function(instance, current) {
+      instance.$refs.bg.css('background', 'rgba(0, 0, 0, 0)');
+      instance.$refs.bg.css('opacity', '0');
+      
+      // очищаем URL при закрытии
+      history.replaceState(null, null, '/');
+    },
+    caption: function(instance, item) {
+      return '';
+    }
+  });
+}
 
-  function updateFancyBox() {
-    $.fancybox.destroy();
-    var visibleImages = $(".gallery__item:visible a");
-    visibleImages.attr("data-fancybox", "visible-gallery");
-    visibleImages.fancybox({
-      touch: true,
-      arrows: true,
-      infobar: false,
-      buttons: [
-        'download',
-        'close'
-      ],
-      baseClass: 'my-fancybox',
-      loop: true,
-      clickOutside: true,
-      afterLoad: function(instance, current) {
-        instance.$refs.bg.css('background', 'rgba(0, 0, 0, 1)');
-        instance.$refs.bg.css('opacity', '1');
-      },
-      beforeClose: function(instance, current) {
-        instance.$refs.bg.css('background', 'rgba(0, 0, 0, 0)');
-        instance.$refs.bg.css('opacity', '0');
-      },
-      caption: function(instance, item) {
-        return '';
+
+// Измененная функция initFancyBox
+function initFancyBox() {
+  setupFancyBox("[data-fancybox='gallery'], [data-fancybox='visible-gallery']");
+
+  // Получаем все изображения в галерее
+  var $images = $(".gallery__item:visible a img");
+  var imagesLoaded = 0;
+
+  $images.each(function() {
+    // Для каждого изображения создаем новый объект Image и устанавливаем обработчик события 'load'
+    var img = new Image();
+    img.onload = function() {
+      imagesLoaded++;
+      // Если все изображения загружены, проверяем URL и открываем Fancybox, если нужно
+      if (imagesLoaded === $images.length) {
+        var hash = window.location.hash;
+        if (hash) {
+          var $imageToOpen = $(hash);
+          if ($imageToOpen.length) {
+              $imageToOpen.click();
+          }
+        }
       }
-    });
-  }
+    };
+    img.src = $(this).attr('src');
+  });
+}
+
+function updateFancyBox() {
+  $.fancybox.close(true);
+  var visibleImages = $(".gallery__item:visible a");
+  visibleImages.attr("data-fancybox", "gallery");
+  visibleImages.attr("data-fancybox-visible", "visible-gallery");
+  setupFancyBox("[data-fancybox='gallery'], [data-fancybox='visible-gallery']");
+}
 
   document.addEventListener('lazyloaded', function(event) {
     var img = event.target;
