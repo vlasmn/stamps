@@ -2,4 +2,4 @@ node_modules
 dist
 
 *.sublime-*
-# src/public/fonts/*.woff2
+src/public/fonts/*.woff2
