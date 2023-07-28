@@ -12,7 +12,7 @@
 
 ## ⚙️ Как работает
 Проект из 3 частей:
-- [Сайт](stamps.pages.dev)
+- [Сайт](https://stamps.vla.so)
 - [Репозиторий](https://github.com/vlasmn/stamps)
 - [База в Гугл Таблицах](https://docs.google.com/spreadsheets/d/11gihx9wG1Qo8Pu7ZBG0LuQkJXF3m_GUFZ23y2EuK7jw/edit#gid=0)
 
