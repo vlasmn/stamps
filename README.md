@@ -30,3 +30,5 @@
 - [Владу Гарбовскому](https://t.me/garbovsky), за фидбек по фильтрации
 - [ChatGPT](https://chat.openai.com), за написание кода
 - [Роману Шамину](https://github.com/romashamin), за пост в Твитере и шрифт
+- [Кириллу Олейниченко](https://kirillgreen.ru), за упоминание в Журналусе и Оди
+- [Дарье Райт](https://t.me/Daria_Omega), за написание статьи в Оди
