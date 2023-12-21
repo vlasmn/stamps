@@ -9,9 +9,15 @@
     {% if item.category %}
       data-category="{{ item.category | join(', ') }}"
     {% endif %}
+    {% if item.isNew %}
+      data-is-new="true"
+    {% else %}
+      data-is-new="false"
+    {% endif %}
     data-effect="relax" data-origin="bottom" data-hold="0" data-expose="true"
   >
     {{ item.html | safe }}
+
   </div>
 {% endfor %}
 </div>

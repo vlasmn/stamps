@@ -156,7 +156,7 @@ footer p {
     margin: 10px 0 32px 0
   }
 
-  .filter__button, #filter__reset, #filter__more {
+  .filter__button, #filter__reset, #filter__more, #switch__new {
     padding: 4px 8px;
     background: none;
     color: rgba(var(--text-RGB), 1);
@@ -166,6 +166,92 @@ footer p {
     font-family: var(--font);
     font-size: 14px;
     font-weight: 300;
+  }
+
+  #no-new-items {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 4px 8px;
+    margin-top: 24px;
+    color: rgba(var(--text-RGB), .5);
+  }
+
+  #switch__new {
+    position: relative;
+    margin-right: 10px;
+  }
+
+  #switch__new::after {
+    content: "";
+    position: absolute;
+    right: -6px;
+    width: 1px;
+    height: 20px;
+    background-color: rgba(var(--text-RGB), .2);
+  }
+
+  #switch__new input {
+    display:none;
+  }
+
+  #switch__new i {
+    position: relative;
+    display: inline-block;
+    margin-right: 8px;
+    width: 34px;
+    height: 18px;
+    background-color: rgba(var(--text-RGB), 1);
+    border-radius: 20px;
+    vertical-align: text-bottom;
+    transition: all .2s ease-out;
+  }
+
+  #switch__new i::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 14px;
+    background-color: rgba(var(--text-RGB), 1);
+    border-radius: 8px;
+    transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+    transition: all .2s ease-out;
+  }
+
+  #switch__new i::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(var(--background-RGB), 1);
+    border-radius: 8px;
+    box-shadow: 0 1px 0 rgba(var(--background-RGB), .2);
+    transform: translate3d(2px, 2px, 0);
+    transition: all .2s linear;
+  }
+
+  #switch__new:active i::after {
+    width: 18px;
+    transform: translate3d(2px, 2px, 0);
+    transition: none
+  }
+
+  #switch__new:active input:checked+i::after {
+    transform: translate3d(14px, 2px, 0)
+  }
+
+  #switch__new input:checked+i::before {
+    transform: translate3d(16px, 2px, 0) scale3d(0, 0, 0);
+  }
+
+  #switch__new input:checked+i::after {
+      transform: translate3d(18px, 2px, 0);
+  }
+
+  #switch__new input:checked+i {
+    background-color: rgba(var(--hover-RGB), 1);
   }
 
   #filter__reset, #filter__more {
