@@ -202,20 +202,22 @@ $(document).ready(function() {
 
       var matchesAny = matchesCategory || matchesCountry || matchesYear;
 
-      if (isNewOnly) {
-        if (isItemNew && (matchesAny || Object.keys(activeFilters).length === 1)) {
-          $(imageDiv).show();
-        } else {
-          $(imageDiv).hide();
-        }
+if (!isNewOnly && Object.keys(activeFilters).length === 0) {
+      $(imageDiv).show();
+    } else if (isNewOnly) {
+      if (isItemNew && (matchesAny || Object.keys(activeFilters).length === 1)) {
+        $(imageDiv).show();
       } else {
-        if (matchesAny) {
-          $(imageDiv).show();
-        } else {
-          $(imageDiv).hide();
-        }
+        $(imageDiv).hide();
       }
-    });
+    } else {
+      if (matchesAny) {
+        $(imageDiv).show();
+      } else {
+        $(imageDiv).hide();
+      }
+    }
+  });
 
     var visibleItems = $('.gallery__item:visible').length;
   if (visibleItems === 0) {
