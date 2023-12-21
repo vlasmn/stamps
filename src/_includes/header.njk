@@ -7,6 +7,9 @@
 
   <div class="filter__wrapper">
     <div class="filter__group" id="filter">
+      <label id="switch__new">
+        <input type="checkbox" id="new-only-checkbox"><i></i>Только новые
+      </label>
 
     <!-- Категории -->
       {% set uniqueCategory = [] %}
@@ -55,7 +58,9 @@
       <button id="filter__more">Ещё</button>
       <button id="filter__reset" style="display: none;">Сбросить</button>
     </div>
+
   </div>
+  <div id="no-new-items" style="display: none;">Здесь ничего нового ¯\_ (ツ)_/¯</div>
 </div>
 
 <script>
