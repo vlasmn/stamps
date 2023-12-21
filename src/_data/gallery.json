@@ -44,14 +44,317 @@
         "alt": "ЛУНА-4 N R BULGARIA",
         "category": [
           "Космос"
-        ]
+        ],
+        "year": 1963
       },
       {
         "filename": "bulgaria_63_luna_4",
         "alt": "ЛУНА-4 N R BULGARIA",
         "category": [
           "Космос"
-        ]
+        ],
+        "year": 1963
+      },
+      {
+        "filename": "bulgaria_64_st_3",
+        "alt": "БОЛГАРИЯ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1964,
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_70_tutunonizachki",
+        "alt": "ТЮТЮНОНИЗАЧКИ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_72_saporro",
+        "alt": "ПОЩА НР БЛГАРИЯ",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_74_mladost",
+        "alt": "МЛАДОСТ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_dvaleva",
+        "alt": "ДВА ЛЕВА",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr",
+        "alt": "ДЮРЕР СЫН",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_2",
+        "alt": "РЕМБРАНД ГЛАВА НА СТАРЕЦ",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_3",
+        "alt": "ДОМИЕ СПОМЕНИ",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_4",
+        "alt": "МИЛЕ СУПАТА",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_5",
+        "alt": "БЕШКОВ РАЗСТРЕЛ",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_6",
+        "alt": "РЕНОАР ГОЛАТЯЛО",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_7",
+        "alt": "ГОЯ ТАНТАЛ",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_8",
+        "alt": "Acherontia atropos",
+        "category": [
+          "Животные"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_9",
+        "alt": "Daphenis nerii",
+        "category": [
+          "Животные"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_10",
+        "alt": "НР БЪЛГАРИЯ",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_11",
+        "alt": "aesculus hippocastanum",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_12",
+        "alt": "КУКЕРСКА МАСКА ЕЛХОВС.КО",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_13",
+        "alt": "BULGARIA",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_14",
+        "alt": "СМОЛЯНСКИТЕ ЕЗЕРА",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_15",
+        "alt": "Априлското встание 1876-1976",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_16",
+        "alt": "Родопски крин",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_17",
+        "alt": "Леководолази",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_18",
+        "alt": "НР БЪЛГАРИЯ",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_19",
+        "alt": "Априлското встание 1876-1976",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_20",
+        "alt": "Р.ЕРМА-ЖДРЕЛОТО",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_21",
+        "alt": "ДМИТРОВСКА ПИОНЕРСКА",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_22",
+        "alt": "PARAVION",
+        "category": [
+          "Транспорт"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_23",
+        "alt": "НР БЪЛГАРИЯ",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_24",
+        "alt": "БОРИС ЕГОРОВ ВОСХОД",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_25",
+        "alt": "НР БЪЛГАРИЯ",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_27",
+        "alt": "Панорама Пампорово",
+        "category": [
+          "Места",
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_28",
+        "alt": "РЗОВО НОЩНО ПАУНОВО ОКО",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_29",
+        "alt": "ЗАВОД ЗА ПОЛУПРОВОДНИЦИ БОТЕВГРАД",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_30",
+        "alt": "ПОРОЧЕЛНИК 19 ВЕК",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_31",
+        "alt": "NR BULGARIA",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_32",
+        "alt": "БЪЛГАРИЯ",
+        "category": [
+          "Животные"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "bulgaria_nr_33",
+        "alt": "АЛЕКСАНДР ЖЕНДОВ",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -71,6 +374,19 @@
         "category": [
           "Персонажи"
         ]
+      }
+    ]
+  },
+  "canada": {
+    "title": "Канада",
+    "images": [
+      {
+        "filename": "canada_1",
+        "alt": "POSTES POSTAGE",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -232,14 +548,205 @@
           "Спорт"
         ],
         "year": 1980
+      },
+      {
+        "filename": "cuba_67_campoenato",
+        "alt": "CUBA CAMPEONATO MUNDIAL DE CASE SUBMARINA",
+        "category": [
+          "Животные"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_72_saavedrda_2",
+        "alt": "MIGUEL DE CERVANTES SAAVEDRA",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_72_saavedrda_3",
+        "alt": "MIGUEL DE CERVANTES SAAVEDRA",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_72_saaverdra",
+        "alt": "MIGUEL DE CERVANTES SAAVEDRA",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_76_apolo",
+        "alt": "V Festival Internacional de Ballet",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_76_ballet",
+        "alt": "V Festival Internacional de Ballet",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_76_canto_vital",
+        "alt": "V Festival Internacional de Ballet",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_76_carmen",
+        "alt": "V Festival Internacional de Ballet",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_76_edipo_rey",
+        "alt": "V Festival Internacional de Ballet",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_76_giselle",
+        "alt": "V Festival Internacional de Ballet",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_76_praga",
+        "alt": "EXPOSICION FILATELICA MUNDIAL",
+        "category": [
+          "Транспорт",
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_77_habana_key_west",
+        "alt": "50 Aniversario Correo Aereo Internacional",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_77_habana_madrid",
+        "alt": "51 Aniversario Correo Aereo Internacional",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_77_habana_mexico",
+        "alt": "52 Aniversario Correo Aereo Internacional",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_77_habana_praga",
+        "alt": "53 Aniversario Correo Aereo Internacional",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_77_habana",
+        "alt": "54 Aniversario Correo Aereo Internacional",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_77_parla",
+        "alt": "55 Aniversario Correo Aereo Internacional",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "cuba_chirimoya",
+        "alt": "CHIRIMOYA",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "cuba_habana",
+        "alt": "DECLARACION DE LA HABANA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "cuba_mango",
+        "alt": "MANGO",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
       }
     ]
   },
-  "czech": {
-    "title": "Чехия",
+  "china": {
+    "title": "Китай",
     "images": [
       {
-        "filename": "czech_57_paris",
+        "filename": "china_1",
+        "alt": " 中國人民銀行 200",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      }
+    ]
+  },
+  "сzechoslovakia": {
+    "title": "Чехословакия",
+    "images": [
+      {
+        "filename": "сzechoslovakia_57_paris",
         "alt": "Czech 1957 Paris",
         "category": [
           "Транспорт"
@@ -247,7 +754,7 @@
         "year": 1957
       },
       {
-        "filename": "czech_57_praha",
+        "filename": "сzechoslovakia_57_praha",
         "alt": "Czech 1957 Praha",
         "category": [
           "Транспорт"
@@ -255,12 +762,258 @@
         "year": 1957
       },
       {
-        "filename": "czech_60_majstrovstvo_sveta",
+        "filename": "сzechoslovakia_60_majstrovstvo_sveta",
         "alt": "Czech 1960 Majstrovstvo Sveta",
         "category": [
           "Транспорт"
         ],
         "year": 1960
+      },
+      {
+        "filename": "сzechoslovakia_64_evropsky_kardiologicky",
+        "alt": "IV EVROPSKY KARDIOLOGICKX KONGRES PRAHA 1964",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1964
+      },
+      {
+        "filename": "сzechoslovakia_70_kmarx",
+        "alt": "K.MARX 1818",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1964,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_70_podzemna",
+        "alt": "IX. MAJSTROVSTVA SVETA VO FUTBALE",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_74_svencsbir",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Животные",
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_74_svetova",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Предметы",
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_74_svetovy",
+        "alt": "SVETOVY TYZDEÑ HUDBY",
+        "category": [
+          "Предметы",
+          "Животные",
+          "Места"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_76_innsbruck",
+        "alt": "INNSBRUCK 1976",
+        "category": [
+          "Персонажи",
+          "Спорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_76_safari",
+        "alt": "Ceskostreno",
+        "category": [
+          "Животные"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_77_spolency",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Персонажи",
+          "Космос"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_77_virokcvarik",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_77_vranov",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_cssr",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_greinerova",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_kovarik_2",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_kovarik",
+        "alt": "silnice není hristé CESKOSLOVENSKO ani závodní dráha",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga_2",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Места",
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga_3",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Места"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga_4",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Места"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga_5",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Места"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga_6",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Места"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga_7",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga_8",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Персонажи",
+          "Животные"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praga",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Места"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_78_praha",
+        "alt": "CESKOSLOVENSKO",
+        "category": [
+          "Предметы",
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "сzechoslovakia_balaz",
+        "alt": "IX.SVÉTOVÝ ODBOROVY KONGRES",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      }
+    ]
+  },
+  "dprk": {
+    "title": "Северная Корея",
+    "images": [
+      {
+        "filename": "dprk_77",
+        "alt": "조선을로 DPRK 전",
+        "category": [
+          "Места"
+        ],
+        "year": 1977,
+        "isNew": true
       }
     ]
   },
@@ -273,6 +1026,16 @@
         "category": [
           "Транспорт"
         ]
+      },
+      {
+        "filename": "france_2001_jongkind",
+        "alt": "Johan Barthold 1819-1891 Jongkind",
+        "category": [
+          "Природа",
+          "Транспорт"
+        ],
+        "year": 2001,
+        "isNew": true
       }
     ]
   },
@@ -285,6 +1048,100 @@
         "category": [
           "Природа"
         ]
+      },
+      {
+        "filename": "germany_71_selbstroptrat",
+        "alt": "DEUTSCHE DEMOKRATISCHE REPUBLIK",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "germany_85_solidarite",
+        "alt": "SOLIDARITÉ",
+        "category": [
+          "Предметы",
+          "Персонажи",
+          "Организации"
+        ],
+        "year": 1985,
+        "isNew": true
+      },
+      {
+        "filename": "germany_98_warnemunde",
+        "alt": "DDR",
+        "category": [
+          "Места"
+        ],
+        "year": 1998,
+        "isNew": true
+      },
+      {
+        "filename": "germany_bauwerke",
+        "alt": "Bauuverke in Berline Mationiché",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "germany_europaische_giftpilze",
+        "alt": "DDR 15 Amanita pantherina 85 Europaische Giftpilze 74-10 DEUTSCHEN DORFI",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "germany_hakenbeck_harlad",
+        "alt": "Hakenbeck, Harald Fischerhaus in Yit 20 DDR\nERL STAATLICHE MUSEEN ZÜ BERLIN 10 HAUPTSTADT DER DDR 10.12",
+        "category": [
+          "Места",
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "germany_hermann_matern",
+        "alt": "HERMANN MATERN DDR GEBOREN 1893 40",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "germany_kinderbilfsfonds",
+        "alt": "Kinderbilfsfonds der 25. Jahrestag des Vereinten Nationen 20",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "germany_lachnit_wilheim",
+        "alt": "Lachnit, Wilheim Sinnendes DDR STAATLICHE MUSEEN HAUPTSTADT DER DDR",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "germany_mon_plaisir",
+        "alt": "SCHLOSSMUSEUM ARNSTADT MON PLAISIR DIE PUPPENSTADT TAS ORZELLARA UND SPIEGELKABINETT",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "germany_riesen_rotling",
+        "alt": "DDR Rhodophyllus sinuatus Europäische Giftpilze DEUTSCHENDORF",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -306,6 +1163,101 @@
           "Транспорт"
         ],
         "year": 1977
+      }
+    ]
+  },
+  "ireland": {
+    "title": "Ирландия",
+    "images": [
+      {
+        "filename": "ireland_87_nollaig",
+        "alt": "ÉIRE 21 NOLLAIG",
+        "category": [
+          "Животные"
+        ],
+        "year": 1987,
+        "isNew": true
+      },
+      {
+        "filename": "ireland_88_love",
+        "alt": "EIRE LOVE",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1988,
+        "isNew": true
+      },
+      {
+        "filename": "ireland_1",
+        "alt": "EIRE",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_2",
+        "alt": "EIRE",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_3",
+        "alt": "EIRE",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_4",
+        "alt": "EIRE",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_5",
+        "alt": "EIRE",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_6",
+        "alt": "EIRE",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_7",
+        "alt": "EIRE",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_8",
+        "alt": "EIRE",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ireland_9",
+        "alt": "EIRE",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -363,6 +1315,24 @@
           "Животные"
         ],
         "year": 1961
+      },
+      {
+        "filename": "mongolia_61_vostok_2",
+        "alt": "МОНТОЛ ШУУДАН 28 VOSTOK-2 MONGOLIA",
+        "category": [
+          "Космос"
+        ],
+        "year": 1961,
+        "isNew": true
+      },
+      {
+        "filename": "mongolia_65_proton_1",
+        "alt": "МОНГОЛ ШУУДАН",
+        "category": [
+          "Космос"
+        ],
+        "year": 1965,
+        "isNew": true
       },
       {
         "filename": "mongolia_71_mongol_showdan_29",
@@ -438,6 +1408,25 @@
         "year": 1972
       },
       {
+        "filename": "mongolia_72_shitomordnik",
+        "alt": "ШИТОМОРДНИК. БАМБАЙ ХОНШООРТ. ANCISTRODON HALYS (PALLAS, 1776)",
+        "category": [
+          "Животные"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "mongolia_75_20",
+        "alt": "MONGOLIA МОНГОЛ ШУУДАН",
+        "category": [
+          "Персонажи",
+          "Природа"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
         "filename": "mongolia_73_mongol_showdan_37",
         "alt": "MONGOLIA МОНГОЛ ШУУДАН",
         "category": [
@@ -468,6 +1457,44 @@
           "Персонажи"
         ],
         "year": 1975
+      },
+      {
+        "filename": "mongolia_75_21",
+        "alt": "MONGOLIA МОНГОЛ ШУУДАН",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "mongolia_75_22",
+        "alt": "MONGOLIA МОНГОЛ ШУУДАН",
+        "category": [
+          "Персонажи",
+          "Животные"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "mongolia_75_23",
+        "alt": "MONGOLIA МОНГОЛ ШУУДАН",
+        "category": [
+          "Персонажи",
+          "Животные"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "mongolia_78_flammula_spumosa",
+        "alt": "MONGOLIA МОНГОЛ ШУУДАН",
+        "category": [
+          "Природа"
+        ],
+        "year": 1978,
+        "isNew": true
       },
       {
         "filename": "mongolia_lunik",
@@ -695,6 +1722,30 @@
         "category": [
           "Космос"
         ]
+      },
+      {
+        "filename": "mongolia_24",
+        "alt": "COPRINUS COMATUS",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "mongolia_25",
+        "alt": "LACTARIUS TORMINOSUS",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "mongolia_canis_lupus",
+        "alt": "CANIS LUPUS",
+        "category": [
+          "Животные"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -811,6 +1862,33 @@
         "year": 1969
       },
       {
+        "filename": "poland_74_sliwka_2",
+        "alt": "XIX MIEDZVNARODOWY KONGRES OGRODNICZY",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "poland_74_sliwka_3",
+        "alt": "XIX MIEDZYNARODOWY KONGRES DERODNICZY",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "poland_74_sliwka",
+        "alt": "XIX MIEDZYNARODOWV KONGRES OGRODNICZY",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
         "filename": "poland_76_aleksander_czekanowski",
         "alt": "Aleksander Czekanowski",
         "category": [
@@ -827,6 +1905,16 @@
         "year": 1976
       },
       {
+        "filename": "poland_76_matuszewska",
+        "alt": "12 H. MATUSZEWSKA PWPW 76",
+        "category": [
+          "Спорт",
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
         "filename": "poland_79_platichthys_flesus",
         "alt": "ATICHTHYS FLESUS L. Fladra",
         "category": [
@@ -841,6 +1929,15 @@
           "Животные"
         ],
         "year": 1979
+      },
+      {
+        "filename": "poland_88_freudenreich",
+        "alt": "W. FREUDENREICH",
+        "category": [
+          "Природа"
+        ],
+        "year": 1988,
+        "isNew": true
       },
       {
         "filename": "poland_klon",
@@ -869,6 +1966,313 @@
         "category": [
           "Транспорт"
         ]
+      },
+      {
+        "filename": "poland_wladyslaw",
+        "alt": "DZIEN ZNACZKA 1974 polska WLADYSLAW",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_1",
+        "alt": "POLSKA: 1.50 ZL",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_borowka",
+        "alt": "BOROWKA CZARNA VACCINIUM MYRTILLUS L150 Polska",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_debno_kosciolek",
+        "alt": "DEBNO-KOSCIOLEK XVw",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_gr",
+        "alt": "POLSKA • 90 gr",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_gulden_gdanski",
+        "alt": "POLSKA 420",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_kamien_pomporski",
+        "alt": "POLSKA Zk KAMIEN POMORSKI BRAMA WOLINSKA XIVw.",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_kazemierz",
+        "alt": "poiska KAZIMIERZ SICHULSKI 3라",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_lukasz_orlowski",
+        "alt": "polska LUKASZ ORLOWSKI 50gr",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_malarz",
+        "alt": "polska 90 MALARZ NIEZNANY XIX gr",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_port_gdynia",
+        "alt": "POLSKA PORT GDYNIA 50 BAZA KONTENEROWA",
+        "category": [
+          "Транспорт",
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_port_polnocny",
+        "alt": "GDANSK • PORT POLNOCNY 8-0- POLSKA",
+        "category": [
+          "Транспорт",
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_port_swinoujsce",
+        "alt": "POLSKA PORT SWINOUSCIE",
+        "category": [
+          "Транспорт",
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_rubus_caesius",
+        "alt": "JEZYNA POPIELICA RUBUS CAESIUS L Polska",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_tadeusz_kulisiewicz",
+        "alt": "TADEUSZ KULISIEWICZ 150zx POLSKA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_teatr_narodowy_2",
+        "alt": "A. FREDRO • ZEMSTA TEATR NARODOWY 109 ZL • POLSKA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_teatr_narodowy_3",
+        "alt": "A. MICKIEWICZ • DZIADY TEATR NARODOWY 200 ZE • POLSKA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_teatr_narodowy",
+        "alt": "J. SLOWACKI •KORDIAN 150 ZL TEATRINA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "poland_vaccinium_vitis",
+        "alt": "BOROWKA BRUSZNICA * VACCINIUM VITIS",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      }
+    ]
+  },
+  "philippines": {
+    "title": "Филиппины",
+    "images": [
+      {
+        "filename": "philippines_60_olympiad",
+        "alt": "POSTERE 10¢ RECEI PHILIPPINES 1960 OLYMPIAD",
+        "category": [
+          "Спорт",
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_60th_anniversary",
+        "alt": "pilipinas 60 TH ANNIVERSARY COLLEGE OF LAW U.P. 15S",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_63_lungsod_ng_maynila_2",
+        "alt": "PILIPINAS 30 LAURA BALLOT URNA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_63_lungsod_ng_maynila",
+        "alt": "PILIPINAS 6 LAURA BALLOT URNA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_65_ikaapat_na_raang",
+        "alt": "FILIPINAS 30 ",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_65_sandaang",
+        "alt": "PILIPINAS SANDAANG TAONG PAGLILINGKOD METEOROLOHIKO SA PILIPINAS THON DE THA",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_71_baguio_city",
+        "alt": "pilipinas 1971 REGIONAL CONFERENCE IPpE",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_72_nurses_association_2",
+        "alt": "PHILIPPINE NURSES ASSOCIATION",
+        "category": [
+          "Персонажи",
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_72_nurses_association",
+        "alt": "PHILIPPINE NURSES ASSOCIATION",
+        "category": [
+          "Персонажи",
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_72_visit_asean_lands",
+        "alt": "VISIT ASEAN LANDS KOREO",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_amorsolo",
+        "alt": "pilípinas 10 KOREO AFTERNOON MEAL of the RICE WORKERS Amorsolo IKA-25 ANIBERSARYO",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_cultural_center",
+        "alt": "CULTURAL CENTER of the PHILIPPINES",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_hidalgo",
+        "alt": "KOREO LA BARCA DE AQUERONTE IKA- 25 ANIBERSARYO SANGAY NG SELYO AT PILATELIKA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_juan_luna",
+        "alt": "IKA - 25 ANIBERSARYO SANGAY NG SELYO AT PILATELIKA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_maligayang",
+        "alt": "10 KOREO MALIGAYANG PASKO AT MANIGONG BAGONG TAON",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_postage",
+        "alt": "PRIORPINES POSTAGE 5 MARCELO H. DEL PILAR",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_tobacco_industry_2",
+        "alt": "PUBLIC PALL IRD. TPINAS INDUSTRIYA NG TABAKO TOBACCO INDUSTRY KOREO",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "philippines_tobacco_industry",
+        "alt": "IIPINAS INDUSTRIYA NG TABAKO TOBACCO INDUSTRY KOREO",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -882,6 +2286,16 @@
           "Места"
         ],
         "year": 2000
+      },
+      {
+        "filename": "russia_99_1",
+        "alt": "0108021 МОСЬ РОССИЯ ROSSIJA",
+        "category": [
+          "Персонажи",
+          "Природа"
+        ],
+        "year": 1999,
+        "isNew": true
       }
     ]
   },
@@ -889,39 +2303,156 @@
     "title": "Испания",
     "images": [
       {
-        "filename": "espana_correro_aereo",
+        "filename": "spain_1",
         "alt": "ESPANA CORREO AEREO",
         "category": [
           "Транспорт"
         ]
       },
       {
-        "filename": "espana_correro_aereo_2",
+        "filename": "spain_2",
         "alt": "ESPANA CORREO AEREO",
         "category": [
           "Транспорт"
         ]
       },
       {
-        "filename": "espana_correro_aereo_3",
+        "filename": "spain_3",
         "alt": "ESPANA CORREO AEREO",
         "category": [
           "Транспорт"
         ]
       },
       {
-        "filename": "espana_correro_aereo_4",
+        "filename": "spain_4",
         "alt": "ESPANA CORREO AEREO",
         "category": [
           "Транспорт"
         ]
       },
       {
-        "filename": "espana_correro_aereo_5",
+        "filename": "spain_5",
         "alt": "ESPANA CORREO AEREO",
         "category": [
           "Транспорт"
         ]
+      },
+      {
+        "filename": "spain_67_sello_2",
+        "alt": "COBREOS 12 Cl 150 PTAS",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "spain_67_sello",
+        "alt": "6 REALES CERTIFICADO 185 ESPAÑA",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "spain_68_sello",
+        "alt": "6REALES ACERTIFICADO 350 A 18:05 TESPAÑA DIA MUNDIAL DEL SELLO 1968",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "spain_77_guatemala",
+        "alt": "HISPANIDAD 1977 CAU PTA CORREOS ESPANA IGLESIA DE SAN FRANCISCO",
+        "category": [
+          "Места"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "spain_alonso_cano",
+        "alt": "CORREOS ESPANA DE SAN JUAN LALONSO CANO",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_badajoz",
+        "alt": "RREOS PTA ESPANA BADAJOZ！",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_caballos",
+        "alt": "CORREOS PTAS ESPANA CVA DE LOS",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_castelion",
+        "alt": "CORREOS ESPANA MIGIA (CASTELLON",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_europa_2",
+        "alt": "ESPAÑA CORREOS PTAS EUROPA",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_europa",
+        "alt": "2 PTAS ESPANA CORREOS PUROPAS F.N.M.T",
+        "category": [
+          "Предметы",
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_fortuny",
+        "alt": "CORREOS 2 PTAS ESPANA VIEJO DESNUDO AL SOL TFORTUNI",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_jesus_y_la_samaritana",
+        "alt": "PIAS CORREOS ESPANA JESUS Y LA SAMARITANA (ALONSO CANDI",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_ongle",
+        "alt": "850 PTAS CORREOS ONGI ESPANA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "spain_retrato",
+        "alt": "350 CORREOS AESPANA RETI",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -962,6 +2493,19 @@
         "category": [
           "Космос"
         ]
+      }
+    ]
+  },
+  "syria": {
+    "title": "Сирия",
+    "images": [
+      {
+        "filename": "syria_1",
+        "alt": "OT SYRIAN ARAB REPUBLIC 600 POSTAGEI",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -1492,38 +3036,6 @@
         "year": 1976
       },
       {
-        "filename": "ussr_77_efa",
-        "alt": "ЭФА ПЕСЧАНАЯ ЯДОВИТЫЕ ЗМЕИ ПОЛЕЗНЫЕ ПРЕДСТАВИТЕЛИ ФАУНЫ",
-        "category": [
-          "Животные"
-        ],
-        "year": 1977
-      },
-      {
-        "filename": "ussr_77_gadyka",
-        "alt": "ГАДЮКА ОБЫКНОВЕННАЯ ЯДОВИТЫЕ ЗМЕИ ПОЛЕЗНЫЕ ПРЕДСТАВИТЕЛИ ФАУНЫ",
-        "category": [
-          "Животные"
-        ],
-        "year": 1977
-      },
-      {
-        "filename": "ussr_77_gurza",
-        "alt": "ГЮРЗА ПОЛЕЗНЫЕ ПРЕДСТАВИТЕЛИ ФАУНЫ",
-        "category": [
-          "Животные"
-        ],
-        "year": 1977
-      },
-      {
-        "filename": "ussr_77_kobra",
-        "alt": "КОБРА СРЕДНЕАЗИАТСКАЯ ПОЛЕЗНЫЕ ПРЕДСТАВИТЕЛИ ФАУНЫ",
-        "category": [
-          "Животные"
-        ],
-        "year": 1977
-      },
-      {
         "filename": "ussr_77_shitomordnik",
         "alt": "ЩИТОМОРДНИК ОБЫКНОВЕННЫЙ ЯДОВИТЫЕ ЗМЕИ ПОЛЕЗНЫЕ ПРЕДСТАВИТЕЛИ ФАУНЫ",
         "category": [
@@ -1706,6 +3218,2714 @@
         "category": [
           "Транспорт"
         ]
+      },
+      {
+        "filename": "ussr_55_isaakyan",
+        "alt": "4к АВЕТИК ИСААКЯН 1875 АРМЯНСКИЙ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1955,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_57_40_let_velikogo_oktyabrya",
+        "alt": "1922 1957 ВЕЛИКОГО ОКТЯБРА ПОЧТА CCCP",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1957,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_60_praga",
+        "alt": "17 ЧЕХОСЛОВАЦКОЙ ЛЕТ РЕСПУБЛИКИ 1960 ПРАГА, КАРЛОВ МОСТ ПОЧТА СССР 60 кол",
+        "category": [
+          "Места"
+        ],
+        "year": 1960,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_61_vov",
+        "alt": "ВЕЛИКАЯ ОТЕЧЕСТВЕННАЯ ВОЙНА 1941-1945 гг.",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1961,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_62_mehiko",
+        "alt": "ПЕРВЕНСТВО РИРАТМЕНИКО 962 КОЛ ПОЧТА СССР",
+        "category": [
+          "Спорт",
+          "Животные"
+        ],
+        "year": 1962,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_62_vostok_3",
+        "alt": "СЛАВА ПОКОРИТЕЛЯМ КОСМОСА! „ВОСТОК-3\" „ВОСТОК-4\" СССР",
+        "category": [
+          "Космос"
+        ],
+        "year": 1962,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_63_s_novym_godom",
+        "alt": "ПОЧТА СССР 1963",
+        "category": [
+          "Природа"
+        ],
+        "year": 1963,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_64_brusnika",
+        "alt": "БРУСНИКА 1964 161",
+        "category": [
+          "Природа"
+        ],
+        "year": 1964,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_64_ezhevika",
+        "alt": "ЕЖЕВИКА 1964 СССР",
+        "category": [
+          "Природа"
+        ],
+        "year": 1964,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_64_knigo_pechataniya_v_rossii",
+        "alt": "400 ЛЕТ КНИГО-ПЕЧАТАНИЯ В РОССИИ 1964",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1964,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_64_mars_1",
+        "alt": "12 AGPEAX-AEHb KOCMOHABTVKM 106 1964 ПОЧТАСССР",
+        "category": [
+          "Космос"
+        ],
+        "year": 1964,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_65_shishkin",
+        "alt": "И. И. ШИШКИН 1832-1898 ДУБЫ",
+        "category": [
+          "Природа"
+        ],
+        "year": 1965,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_66_omul",
+        "alt": "БАЙКАЛЬСКИЙ ОМУЛЬ 1966 ПОЧТА СССР",
+        "category": [
+          "Животные"
+        ],
+        "year": 1966,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_66_pervenstvo_mira",
+        "alt": "ПЕРВЕНСТВО МИРА ПОЧТА ФУТБОЛУ",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1966,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_66_pervenstvo_po_fehtovaniy",
+        "alt": "ПЕРВЕНСТВО ФЕХТОВАНИЮ ПОЧТА",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1966,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_67_gimnastika",
+        "alt": "1967 МИРА ПО РОДОСЕСТВЕНОЙ ГИМНАСТИКЕ ПОЧТА СССР",
+        "category": [
+          "Спорт"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_67_golyboy_pesets",
+        "alt": "ГОЛУБОЙ ПЕСЕЦ ПОЧТА CCCP 1967",
+        "category": [
+          "Животные"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_67_na_lune",
+        "alt": "ПОНТА СССР 1967 9 Koп На Луне. КОСМИЧЕСКАЯ ФАНТАСТИКА",
+        "category": [
+          "Космос"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_67_shmatko",
+        "alt": "В. И. ЛЕНИН У КАРТЫ ГОЭЛРО 1970 ПОЧТА СССР ХУД. Л. А. ШМАТЬКО (1957)",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_67_sputnik_civilizatsii",
+        "alt": "ПОЧТА ССОР 1967 КОСМИЧЕСКАЯ ФАНТАСТИКА",
+        "category": [
+          "Космос"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_67_vsemirnaya_vystavka",
+        "alt": "6K выставка всемирн ПОЧТА-СССР 967",
+        "category": [
+          "Места"
+        ],
+        "year": 1967,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_den_marki",
+        "alt": "ДЕНЬ ПОЧТОВОЙ МАРКИ КОЛЛЕКЦИОНЕРА ОКТЯБРЬ ПОЧТА СССР",
+        "category": [
+          "Персонажи",
+          "Организации"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_kongress_iskopaemyh",
+        "alt": "КОНГРЕС- ПО ОБОГАЩЕНИЮ ЖДУНАРОД ЛЕНИНГРАД 1968",
+        "category": [
+          "Организации",
+          "Предметы"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_marks",
+        "alt": "1818 1883 ПОЧТА СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_orden_revolutsii",
+        "alt": "ПОЧТА СССР ОКТЯБРЬСКАЯ РЕВОЛЮЦИЯ",
+        "category": [
+          "Предметы",
+          "Организации"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_pompey",
+        "alt": "К.П. БРЮЛЛОВ. ПОСЛЕДНИЙ ДЕНЬ ПОМПЕЙ (1833 г.) ГОСУДАРСТВЕННЫЙ РУССКИЙ МУЗЕЙ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_2",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_3",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_4",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_5",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_6",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_7",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_8",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_9",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs_10",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_svs",
+        "alt": "СОВЕТСКИЕ ВООРУЖЕННЫЕ СИЛЫ 1918 1968 ПОЧТА СССР",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_68_vasnetsov",
+        "alt": "В.М. ВАСНЕЦОВ. ВИТЯЗЬ НА РАСПУТЬЕ ( 1882 г.) ГОСУДАРСТВЕННЫЙ РУССКИЙ МУЗЕЙ 1968",
+        "category": [
+          "Персонажи",
+          "Животные",
+          "Природа"
+        ],
+        "year": 1968,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_50_let_pervoy_konnoy",
+        "alt": "50 ЛЕТ ПЕРВОЙ КОННОЙ 1969 ПОЧТА СССР",
+        "category": [
+          "Животные",
+          "Организации"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_burlaki_na_volge",
+        "alt": "1844-1930 ПОЧТА СССР БУРЛАКИ-НА ВОЛГЕ. 1873 г. (ФРАГМЕНТ)",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_gorki_leninskie",
+        "alt": "ГОРКИ 月E所時HCKME ПОЧТА СССР.1969",
+        "category": [
+          "Места"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_kazan",
+        "alt": "КАЗАНЬ ГОС. УНИВЕРСИТЕТ ИМ. В.И. УЛЬЯНОВА-ЛЕНИНА К ТПОЧТА СССР.1969",
+        "category": [
+          "Места"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_kuibyshev",
+        "alt": "КУЙБЫШЕВ. ДОМ-МУЗЕЙ В.И. ЛЕНИНА ПОЧТА СССР 1969",
+        "category": [
+          "Места"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_ne_zhdali",
+        "alt": "НЕ ЖДАЛИ. 1884 г. (ФРАГМЕНТ) 1844-1930 ПОЧТА СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_repin",
+        "alt": "ПОЧТА СССР 1969 ОВАНЕС ТУМАНЯН Армянский поэт (1869- 1923)",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_tumanyan",
+        "alt": "УЛЬЯНОВСК. ДОМ-МУЗЕЙ В.И. ЛЕНИНА ПОЧТА СССР 1969",
+        "category": [
+          "Места"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_ulyanovsk",
+        "alt": "1-Я ВСЕСОЮЗНАЯ ЮНОШЕСКАЯ ФИЛАТЕЛИСТИЧЕСКАЯ ВЫСТАВКА КИЕВ 1969 ПОЧТА СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_unosheskaya_vystavka",
+        "alt": "ПОЧТА СССР 10КОП СНИМОК ЗЕМЛИ СТАНЦИИ ЗОНД-7",
+        "category": [
+          "Космос"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_69_zond_7",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ-ЛЕНИНГРАД 4 1970 ЭЛЬ ГРЕКО. АПОСТОЛЫ ПЕТР И ПАВЕЛ ПОЧТА СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1969,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_apostoly_petr_i_pavel",
+        "alt": "ПРОЛЕТА, ПОЧТА СССР Зк ОРДЕНОНОСНЫЙ КРЕЙСЕР",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_avrora",
+        "alt": "ВСЕСОЮЗНАЯ ФИЛАТЕЛИЧЕСКАЯ ВЫСТАВКА",
+        "category": [
+          "Персонажи",
+          "Организации"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_filatelicheskaya_vystavka",
+        "alt": "РАКЕТНЫЙ КРЕЙСЕР ГРОЗНЫЙ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_grozniy",
+        "alt": "В.И.ЛЕНИН 1870-1970",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_2",
+        "alt": "В.И.ЛЕНИН 1870-1971",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_3",
+        "alt": "В.И.ЛЕНИН 1870-1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_4",
+        "alt": "В.И.ЛЕНИН 1870-1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_5",
+        "alt": "В.И.ЛЕНИН 1870-1974",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_6",
+        "alt": "В.И.ЛЕНИН 1870-1975",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_7",
+        "alt": "В.И.ЛЕНИН 1870-1976",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_8",
+        "alt": "В.И.ЛЕНИН 1870-1977",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin_9",
+        "alt": "В.И.ЛЕНИН 1870-1978",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_lenin",
+        "alt": "В.И.ЛЕНИН 1870-1980",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_leninskiy_komsomol",
+        "alt": "ПОЧТА СССР 20k АТОМНАЯ ПОДВОДНАЯ ЛОДКА",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_patrioticheskaya_igra",
+        "alt": "О ПАТРИОТИЧЕСКАЯ ВСЕСОЮЗНАЯ ПОЧТА CCCP 1970",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_revolutsiya",
+        "alt": "ПОЧТА СССР 10к 1970 КРЕЙСЕР ОКТЯБРЬСКАЯ РЕВОЛЮЦИЯ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_rubenes",
+        "alt": "К 1970 РУБЕНС. ПЕРСЕЙ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_s_novym_godom",
+        "alt": "1970 ПОЧТА СССР СТОЛЕТИЯ СО ДНЯ РОЖДЕНИЯ В. И. ЛЕНИНА!",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_semeiniy_portret",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД 1970 ВАН ДЕЙК. СЕМЕЙНЫЙ ПОРТРЕТ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_unesko",
+        "alt": "РОДНЫЙ СAM В.И. ЛЕНИНА 1970 ПОЧТА CCCP",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_varyag",
+        "alt": "ПОЧТА СССР 1970 ГВ. РАКЕТНЫЙ КРЕЙСЕР ВАРЯГ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_70_vlksm",
+        "alt": "заветам ленина верны 1970 съезд почта СССР ВЛКСМД",
+        "category": [
+          "Персонажи",
+          "Организации"
+        ],
+        "year": 1970,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_botik_petra",
+        "alt": "1723 г. Ботик Петра 1 Спочта ссср- 1971",
+        "category": [
+          "Транспорт",
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_brosh_2",
+        "alt": "АЛМАЗНЫЙ ФОНД СССР 1971 ПОЧТА СССР 20к",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_brosh",
+        "alt": "АЛМАЗНЫЙ ФОНД СССР 1971 ПОЧТА СССР БРОШЬ С САПФИРОМ 10к",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_dostoevskiy",
+        "alt": "ПОЧТА СССР ICK ФЕДОР МИХАЙЛОВИЧ ДОСТОЕВСКИЙ 1881",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_franc",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД CCCP 1971 ПОЧТА ФРАНС ГАЛЬС ПОРТРЕТ МОЛОДОГО ЧЕЛОВЕКА С ПЕРЧАТКОЙ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_fregat_vladimir",
+        "alt": "Фрегат, Владимир 1848 г. 1971 16к",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_gruzinskaya_ssr",
+        "alt": "ГРУЗИНСКАЯ ССР 1921 1971 ПОЧТА СССР",
+        "category": [
+          "Организации"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_kazakhstan",
+        "alt": "50 ЛЕТ КОМСОМОЛУ КАЗАХС ВЛКСМ КАЗАКСТАН",
+        "category": [
+          "Организации",
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_kulon_2",
+        "alt": "АЛМАЗНЫЙ ФОНД СССР ПОЧТА КУЛОН С АМЕТИСТОМ 20к",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_kulon",
+        "alt": "АЛМАЗНЫЙ ФОНД СССР КУЛОН С ЖЕМЧУЖИНОЙ",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_kursistka",
+        "alt": "ПОЧТА CCCP 1971 ГОСУДАРСТВЕННЫЙ МУЗЕЙ РУССКОГО ИСКУССТВА КИЕВ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_lenin",
+        "alt": "ЛЕНИНСКИЙ МЕМОРИАЛ В УЛЬЯНО ПОЧТА СССР АПРЕЛЯ-ДЕНЬ РОЖДЕНИЯ В.И.ЛЕНИНА 1971",
+        "category": [
+          "Места"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_nekrasov",
+        "alt": "ПОЧТА СССР 1971 НИКОЛАЙ АЛЕКСЕЕВИЧ НЕКРАСОВ 1821 1877",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_orel",
+        "alt": "ПОЧТА СССР 1971",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_poltava",
+        "alt": "ПОЧТА СССР 1972",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_poselok",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА А. К. САВРАСОВ • ПРОСЕЛОК 1873",
+        "category": [
+          "Места",
+          "Природа"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_shahterka",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Н. А. КАСАТКИН ШАХТЕРКА 1894 ПОЧТА СССР 1971",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_sharden_prachka",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД ШАРДЕН ПРАЧКА 1971 ПОЧТА CCCP",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_71_tanec_leto",
+        "alt": "АКАДЕМИЧЕСКИЙ АНСАМБЛЬ РУССКИЙ ТАНЕЦ «ЛЕТО» 10к ПОЧТА СССР 1971",
+        "category": [
+          "Персонажи",
+          "Спорт"
+        ],
+        "year": 1971,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_50_let_deklaratsii_2",
+        "alt": "СССР ПОЧТА 50 ДЕКЛАРАЦИИ И ДОГОВОРА ОБ ОБРАЗОВАНИИ ДА ЗДРАВСТВУЕТ БРАТСКАЯ ДРУЖБА И НЕРУШИМОЕ ЕДИНСТВО НАРОДОВ СССР!",
+        "category": [
+          "Организации"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_50_let_deklaratsii_3",
+        "alt": "СССР ПОЧТА 50 ДЕКЛАРАЦИИ И ДОГОВОРА ОБ ОБРАЗОВАНИИ ДА ЗДРАВСТВУЕТ БРАТСКАЯ ДРУЖБА И НЕРУШИМОЕ ЕДИНСТВО НАРОДОВ СССР!",
+        "category": [
+          "Организации"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_50_let_deklaratsii",
+        "alt": "СССР ПОЧТА 50 ДЕКЛАРАЦИИ И ДОГОВОРА ОБ ОБРАЗОВАНИИ ДА ЗДРАВСТВУЕТ БРАТСКАЯ ДРУЖБА И НЕРУШИМОЕ ЕДИНСТВО НАРОДОВ СССР!",
+        "category": [
+          "Организации"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_amur",
+        "alt": "Минный Заградитель Амур 1907",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_bronenosets",
+        "alt": "Эскадренный броненосец, Поткий 1872 г.",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_delegatka",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Г. Г. РЯЖСКИЙ ДЕЛЕГАТКА 1927 ПОЧТА CCCP 1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_derzhavin",
+        "alt": "ВСЕСОЮЗНЫЙ МУЗЕЙ А. С. ПУШКИНА ЛЕНИНГРАД В. Л. БОРОВИКОВСКИЙ ПОРТРЕТ Г. Р. ДЕРЖАВИНА 1811 г. ПОЧТА СССР 1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_konec_zimy",
+        "alt": "ГОСУДАРОТВЕНЦАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА К. Ф. ЮОН КОНЕЦ ЗИМЫ ПОЛДЕНЬ 1929 ПОЧТА CCCP 1972",
+        "category": [
+          "Места",
+          "Природа"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_novikov",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Д. Г. ЛЕВИЦКИЙ ПОРТРЕТ Н. И. НОВИКОВА 1790-е годы ПОЧТА СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_partizan",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Н. И. СТРУННИКОВ ПАРТИЗАН 1929 ПОЧТА",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_portret_getmana",
+        "alt": "ГОСУДАРСТВЕННЫЙ РУССКИЙ МУЗЕЙ ЛЕНИНГРАД И. НИКИТИН ПОРТРЕТ НАПОЛЬНОГО ГЕТМАНА 1720-е ПОЧТА CCCP 1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_portret_maykova",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Ф. С. РОКОТОВ ПОРТРЕТ ПОЭТА В. И. МАЙКОВА 1760-е ПОЧТА СССР 1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_potemkin",
+        "alt": "Броненосеи Nomeuket 1900г. ПОЧТА СССР 14к 1972",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_varyag",
+        "alt": "Варяг! 1899 г.",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_velaskes",
+        "alt": "Государственный Эрмитаж Ленинград 1617 г. CCCP 1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_volkov",
+        "alt": "ГОСУДАРСТВИННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА А. П. ЛОСЕНКО ПОРТРЕТ АКТЕРА Ф. Г. ВОЛКОВА 1763 г. СССР 1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_za_uchebu",
+        "alt": "ЦЕНТРАЛЬНЫЙ ОРДЕНА ЛЕНИНА МУЗЕЙ РЕВОЛЮЦИИ СССР . МОСКВА-НА КАСАТКИН ЗА УЧЕБУ ПИОНЕРКА С КНИГАМИ 1926 СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_72_zasedanie",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Е. М. ЧЕПЦОВ ЗАСЕДАНИЕ СЕЛЬЯЧЕЙКИ 1924 ПОЧТАЛ СССР 1972",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1972,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_200_let_lgi",
+        "alt": "200 ЛЕТ ЛЕНИНГРАДСКОМУ ГОРНОМУ ИНСТИТУТУ",
+        "category": [
+          "Места"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_angelushev",
+        "alt": "ПОЩА ЮНСКО ВСТАНИЄ 1Q23 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_avtoportret",
+        "alt": "О. А. КИПРЕНСКИЙ • АВТОПОРТРЕТ 1828 г. ПОЧТА СССР 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_batkin_obed",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА А. Г. ВЕНЕЦИАНОВ «ВОТ-ТЕ И БАТЬКИН ОБЕД» 1824 г. ПОЧТА СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_dama_v_sadu",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД СО МОНЕ ДАМА В САДУ 1867 г. 1973 ПОЧТА СССР 14к",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_devushka_s_veerom",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД РЕНУАР ДЕВУШКА С ВЕЕРОМ 1881г. 20k ПОЧТА СССР 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_gitarist",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА В. А. ТРОПИНИН ГИТАРИСТ 1832 г. ПОЧТА 2к CCCP 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_gory",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА М. С. САРЬЯН ГОРЫ 1923 CCCP 1973",
+        "category": [
+          "Природа",
+          "Животные"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_italyansky_polden",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРА МОСКВА К. П. БРЮЛЛОВ ИТАЛЬЯНСКИЙ ПОЛДЕНЬ 1831 г. ПОЧТА CCCP 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_ivanov",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1973",
+        "category": [
+          "Природа"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_kirov",
+        "alt": "СССР 1973 КРАСНОЗНАМЕННЫЙ КРЕЙСЕР «КИРОВ»",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_krasnogvardeets",
+        "alt": "ПОЧТА СССР 1973 КРАСНОЗНАМЕННАЯ ГВАРДЕЙСКАЯ ПОДВОДНАЯ ЛОДКА Д-3 «КРАСНОГВАРДЕЕЦ»",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_molodaya_zhenshina",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД РЕМБРАНДТ МОЛОДАЯ ЖЕНЩИНА, ПРИМЕРЯЮЩАЯ СЕРЬГИ - 1654г 6к ПОЧТА СССР 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_naturmort_2",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД СНЕЙДЕРС НАТЮРМОРТ С БИТОЙ ДИЧЬЮ И ОМАРОМ 1973",
+        "category": [
+          "Животные"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_naturmort",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД ШАРДЕН НАТЮРМОРТ С АТРИБУТАМИ ИСКУССТВ 1766 г. 1973",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_portret_konenkova",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА І. Д. КОРИН ПОРТРЕТ СКУЛЬПТОРА С. Т. КОНЕНКОВА 1947 ПОЧТА СССР 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_revolutsiya",
+        "alt": "ПОЧТА СССР 1973 КРАСНОЗНАМЕННЫЙ ЛИНЕЙНЫЙ КОРАБЛЬ «ОКТЯБРЬСКАЯ РЕВОЛЮЦИЯ»",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_soobrazitelniy",
+        "alt": "ПОЧТА СОСР 1973 ГВАРДЕЙСКИЙ ЭСКАДРЕННЫЙ МИНОНОСЕЦ «СООБРАЗИТЕЛЬНЫЙ»",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_stasova",
+        "alt": "ПОЧТА СССР 1973 Е.Д. СТАСОВА 1873-1966",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_sten_bolnaya",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ -ЛЕНИНГРАД СТЕН БОЛЬНАЯ И ВРАЧ ОКОЛО 1660 г. 10к ПОЧТА СССР 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_svadba",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Ю. И. ПИМЕНОВ СВАДЬБА НА ЗАВТРАШНЕЙ УЛИЦЕ 1962 ПОЧТА СССР 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_tashkent",
+        "alt": "ташкент филиал центрального музея марказий музейининт фрилиали ПОЧТА СССР 1973",
+        "category": [
+          "Места"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_teatr_mossoveta",
+        "alt": "TEATPY ИМЕНИ МОССОВЕТА 505 ЛЕТ 1973 ПОЧТА СССР",
+        "category": [
+          "Организации"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_universiada_moskva_2",
+        "alt": "МОСКВА 1973 ПОЧТА УНИВЕРСИАДА",
+        "category": [
+          "Спорт",
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_universiada_moskva",
+        "alt": "МОСКВА 1973 ПОЧТА УНИВЕРСИАДА",
+        "category": [
+          "Спорт",
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_uzhin_traktoristov",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА А. А. АЛАСТОВ УЖИН ТРАКТОРИСТОВ 1951 ПОЧТА СССР",
+        "category": [
+          "Персонажи",
+          "Природа"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_vdovushka",
+        "alt": "ФОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА П. А. ФЕДОТОВ ВДОВУШКА ПОЧТА 4к СССР 1973",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_73_vkms",
+        "alt": "1973 ВСЕМИРНЫЙ КОНГРЕСС МИРОЛЮБИВЫХ СИЛ МОСКВА CCCP K",
+        "category": [
+          "Организации"
+        ],
+        "year": 1973,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_30_letie_osvobozhdenie",
+        "alt": "1974 30 ОСВОБОЖДЕНИЯ РУМЫНИИ ОТ ФАШИСТСКОГО ИГА",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_50_let_komsomolu",
+        "alt": "1974 50 ЛЕТ СО ДНЯ ПРИСВОЕНИЯ КОМСОМОЛУ ИМЕНИ ВИЛЕНИНА",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_50_let_morskomy_transporty",
+        "alt": "50 МОРСКОМУ ТРАНСДОРТУ СССР ЛЕТ ПОЧТА",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_50_let_muzey_revolutsii",
+        "alt": "50 ЦЕНТРАЛЬНОМУ МУЗЕЮ РЕВОЛЮЦИИ СССР",
+        "category": [
+          "Персонажи",
+          "Организации"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_biplan_grizodubova",
+        "alt": "Биплан С. В. Гриводубова N2 (1910)",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_bolshoy_korabl",
+        "alt": "Большой десантный корабль",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_burnoe_more",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1974 СССР И. К. АЙВАЗОВСКИЙ БУРНОЕ МОРЕ 1868 г.",
+        "category": [
+          "Природа",
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_chesmenkiy_boy",
+        "alt": "ФЕОДОСИЙСКАЯ КАРТИННАЯ ГАЛЕРЕЯ ИМЕНИ И. К. АЙВАЗОВСКОГО И. К. АЙВАЗОВСКИЙ ЧЕСМЕНСКИЙ БОЙ 1848 г.",
+        "category": [
+          "Природа",
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_doch_kirgizii",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА W. C. А. ЧУЙКОВ ДОЧЬ СОВЕТСКОЙ КИРГИЗИИ 1948",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_friedrich_2",
+        "alt": "10 DDR FRIEDRICH",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_friedrich_3",
+        "alt": "35 DDR FRIEDRICH",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_friedrich",
+        "alt": "20 DDR FRIEDRICH",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_georgievskiy_monastyr",
+        "alt": "ФЕОДОСИЙСКАЯ КАРТИННАЯ ГАЛЕРЕЯ ИМЕНИ И. К. АЙВАЗОВСКОГО 1974 И. К. АЙВАЗОВСКИЙ ГЕОРГИЕВСКИЙ МОНАСТЫРЬ 1846",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_korablekrushenie",
+        "alt": "ФЕОДОСИЙСКАЯ КАРТИННАЯ ГАЛЕРЕЯ ИМЕНИ И. К. АЙВАЗОВСКОГО 1974 И. К. АЙВАЗОВСКИЙ • КОРАБЛЕКРУШЕНИЕ • 1876 г.",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_kreyiser",
+        "alt": "Противолодочный крейсер Ок почтА СССР • 1974",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_lodka_grigorovicha",
+        "alt": "1974 ПОЧТА СССР",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_mars",
+        "alt": "МАРС-4 ИЗУЧЕНИЕ ПЛАНЕТ СОЛНЕЧНОЙ СИСТЕМЫ ПРОДОЛЖАЕТСЯ 1974",
+        "category": [
+          "Космос"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_metsy",
+        "alt": "МЕТСЮ «ДЕВУШКА ЗА РАБОТОЙ» СЕРЕДИНА ХУП 14к 1974 почта СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_morskoy_tralshik",
+        "alt": "Морской тральщик 3к Почта СССР",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_nurekskaya_ges",
+        "alt": "СЛАВИМ ДЕЛАМИ ТЕБЯ, ОКТЯБРЬ! 1974 NOUTA CCCP НУРЕКСКАЯ ГОС",
+        "category": [
+          "Места"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_observatoriya_v_kosmose",
+        "alt": "1974 АСТРОФИЗИЧЕСКАЯ ОБСЕРВАТОРИЯ В КОСМОСЕ «СОЮЗ-13» B. В. ЛЕБЕДЕВ",
+        "category": [
+          "Космос"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_pismo_s_fronta",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА А. И. ЛАКТИОНОВ ПИСЬМО С ФРОНТ 1947",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_piters",
+        "alt": "ГОСУДАРСТВЕННЫЙ МУЗЕЙ ИМ. А.С. ПУШКИНА - МОСКВА 6к 1974 СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_port_na_severe",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1974 СССР Г. НИССКИЙ ПОРТ НА СЕВЕРЕ 1957",
+        "category": [
+          "Места",
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_raduga",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1974 И. К. АЙВАЗОВСКИЙ РАДУГА 1873 г.",
+        "category": [
+          "Природа",
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_rerikh",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Н.К.РЕРИХ Н. К. РЕРИХ ЗАМОРСКИЕ ГОСТИ 1901 г.",
+        "category": [
+          "Природа",
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_russia_a",
+        "alt": "Россия-А 1910",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_russkiy_vityaz",
+        "alt": "Русский витязь 1913",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_s_novym_godom",
+        "alt": "С новым годом!",
+        "category": [
+          "Места"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_samolet_mozhaiskogo",
+        "alt": "Самолет А.Ф. Можайского",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_seren",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1974 П. П. КОНЧАЛОВСКИЙ СИРЕНЬ 1933",
+        "category": [
+          "Природа"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_sharden",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД ШАРДЕН «МОЛИТВА ПЕРЕД ОБЕДОМ» 1744 Г 10к 1974",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_slava_trudu",
+        "alt": "СЛАВИМ ДЕЛАМИ ТЕБЯ, ОКТЯБРЬ! 1974",
+        "category": [
+          "Предметы",
+          "Организации"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_terborh",
+        "alt": "ГОСУДАРСТВЕННЫЙ ЭРМИТАЖ ЛЕНИНГРАД 10к 1974",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_vid_odessy",
+        "alt": "ГОСУДАРСТВЕННЫЙ РУССКИЙ МУЗЕЙ ЛЕНИНГРАД И. К. АЙВАЗОВСКИЙ ВИД ОДЕССЫ В ЛУННУЮ НОЧЬ 1846 г.",
+        "category": [
+          "Природа",
+          "Транспорт"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_74_vps",
+        "alt": "1974 ПОЧТА СССР ВСЕ СВІТНЬОМУ",
+        "category": [
+          "Места",
+          "Организации"
+        ],
+        "year": 1974,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_30_let_pobedy_2",
+        "alt": "1945-1975 ЛЕТ 30 ЛЕТ ВЕЛИКОЙ ОТЕЧЕСТВЕННОЙ ВОЙНЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_30_let_pobedy_3",
+        "alt": "1945-1975 ЛЕТ 30 ЛЕТ ВЕЛИКОЙ ОТЕЧЕСТВЕННОЙ ВОЙНЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_30_let_pobedy_4",
+        "alt": "1945-1975 ЛЕТ 30 ЛЕТ ВЕЛИКОЙ ОТЕЧЕСТВЕННОЙ ВОЙНЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_30_let_pobedy_5",
+        "alt": "1945-1975 ЛЕТ 30 ЛЕТ ВЕЛИКОЙ ОТЕЧЕСТВЕННОЙ ВОЙНЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_30_let_pobedy",
+        "alt": "1945-1975 ЛЕТ 30 ЛЕТ ВЕЛИКОЙ ОТЕЧЕСТВЕННОЙ ВОЙНЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_aytopyt",
+        "alt": "АУТОПУТ 0.15 ТУГОСЛАВИТА",
+        "category": [
+          "Места"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_boloto_v_lesu",
+        "alt": "ГОСУДАРСТВЕННЫЙ РУССКИЙ МУЗЕЙ ЛЕНИНГРАД 1975 Ф. А. ВАСИЛЬЕВ БОЛОТО В ЛЕСУ, ОСЕНЬ 1872-73 годы",
+        "category": [
+          "Природа"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_boytsi_u_orudiy",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1975 Е. Е. ЛАНСЕРЕ• БОЙЦЫ У ТРОФЕЙНЫХ ОРУДИЙ 1942",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_derevenskaya_ulitsa",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Ф. А. ВАСИЛЬЕВ ДЕРЕВЕНСКАЯ УЛИЦА 1868 г.",
+        "category": [
+          "Места"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_doroga_v_lesu",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ, ГАЛЕРЕ МОСКВА Ф. А. ВАСИЛЬЕВ • ДОРОГА В БЕРЕЗОВОМ ЛЕСУ",
+        "category": [
+          "Места",
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_god_zhenshiny",
+        "alt": "МЕЖДУНАРОДНЫЙ ГОД ЖЕНЩИНЫ 1975",
+        "category": [
+          "Природа"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_loriston",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Н. П. УЛЬЯНОВ ЛОРИСТОН В СТАВКЕ КУТУЗОВА 1945",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_mbk",
+        "alt": "KOHPECC OANICOS CCCP",
+        "category": [
+          "Природа"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_mezhdunarodniy",
+        "alt": "МЕЖДУНАРОДНЫЙ ИСПОЗИУМ ПО КАРАКУЛЕВОДСТВУ",
+        "category": [
+          "Животные"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_mikelandzhelo_2",
+        "alt": "МИКЕЛАНДЖЕЛО",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_mikelandzhelo_3",
+        "alt": "МИКЕЛАНДЖЕЛО",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_mikelandzhelo",
+        "alt": "МИКЕЛАНДЖЕЛО",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_mokriy_lug",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1975 Ф. А. ВАСИЛЬЕВ МОКРЫЙ ЛУГ 1872 г.",
+        "category": [
+          "Природа"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_nevinnomyskiy_himkombinat",
+        "alt": "НЕВИННОМЫССКИЙ ХИМКОМБИНАТ",
+        "category": [
+          "Места",
+          "Организации"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_nmz",
+        "alt": "НОВОЛИПЕЦКИЙ МЕТАЛЛУРГИЧЕСКИЙ ЗАВОД",
+        "category": [
+          "Места",
+          "Организации"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_parad",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1975 К. Ф. ЮОН •ПАРАД НА КРАСНОЙ ПЛОЩАДИ В МОСКВЕ 7 НОЯБРЯ 1941 ГОДА • 1949",
+        "category": [
+          "Места"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_porhodka",
+        "alt": "ГОРУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Е. Е. ЛАНСЕРЕ ПРОХОДКА ШАХТЫ МЕТРО 1935",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_posle_grozy",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВ Ф. А. ВАСИЛЬЕВ ПОСЛЕ ГРОЗЫ",
+        "category": [
+          "Места",
+          "Природа"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_pushkin",
+        "alt": "М ВСЕСОЮЗНЫЙ МУЗЕЙ А. С. ПУШКИНА А. С. ПУШКИН И Н. Н. ПУШКИНА НА ПРИДВОРНОМ БАЛУ 1937",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_s_novym_godom",
+        "alt": "С Новым годом!",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_soyz_appolon",
+        "alt": "ЭКСПЕРИМЕНТАЛЬНЫЙ ПОЛЕТ КОРАБЛЕЙ „СОЮЗ\" И „АПОЛЛОН\" ПОЧТА СССР•1975А ЛЕОНОВ В. КУБАСОВ СТАФФОРД В.БРАНД Д.СЛЕЙТОН 10k",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_sungukyan",
+        "alt": "ПОЧТА CCCP 1975 АРМЯНСКИЙ ДРАМАТУРГ КЛАССИК 1825 - 1912",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_utro_moskvy",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1975",
+        "category": [
+          "Персонажи",
+          "Места",
+          "Природа"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_v_krymskih_gorkah",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА Ф. А. ВАСИЛЬЕВ В КРЫМСКИХ ГОРАХ 1873 г.",
+        "category": [
+          "Природа",
+          "Места"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_75_venera_9",
+        "alt": "ВЕНЕРА-97 22-Х75 ВЕНЕРА-10 ВИЛЕНИН",
+        "category": [
+          "Космос"
+        ],
+        "year": 1975,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_50_let_elektrifikatsii",
+        "alt": "ЭЛЕКТРИФИКАЦИИ ЖЕЛЕЗНЫХ ДОРОГ СССР",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_antonov",
+        "alt": "В.Д. Антонов",
+        "category": [
+          "Персонажи",
+          "Природа"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_dubna",
+        "alt": "ИНСТИТУТ ЯДЕРНЫХ ИССЛЕДОВАНИЙ",
+        "category": [
+          "Организации"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_gakkel_7",
+        "alt": "САМОЛЕТ ГАККЕЛЬ-7",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_golikov",
+        "alt": "ПОЧТА СССР 1976 И. И. Голиков. Пахарь",
+        "category": [
+          "Персонажи",
+          "Животные"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_igroki",
+        "alt": "ГОСУДАРСТВЕННЫЙ МУЗЕЙ РУССКОГО ИСКУССТВА КИЕВ 1976 А. ФЕДОТОВ ИГРОКИ 1851- 52 годы",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_insbruk_2",
+        "alt": "ИНСБРУК 1976",
+        "category": [
+          "Персонажи",
+          "Спорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_insbruk_3",
+        "alt": "ИНСБРУК 1977",
+        "category": [
+          "Персонажи",
+          "Спорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_insbruk_4",
+        "alt": "ИНСБРУК 1978",
+        "category": [
+          "Персонажи",
+          "Спорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_insbruk",
+        "alt": "ИНСБРУК 1979",
+        "category": [
+          "Персонажи",
+          "Спорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_kotukhin",
+        "alt": "ПОЧТА CCCP 1976 A. В. Котухин Жар-птица",
+        "category": [
+          "Персонажи",
+          "Животные"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_kyzylagachinskiy",
+        "alt": "КЫЗЫЛАГАЧСКИЙ ЗАПОВЕДНИК",
+        "category": [
+          "Животные"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_ledokol_litke",
+        "alt": "ЛЕДОКОЛ «Ф. ЛИТКЕ» ПОЧТА СССР 1976",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_lysukha",
+        "alt": "КРАСНОВОДСКИЙ ЗАПОВЕДНИК",
+        "category": [
+          "Животные"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_markichev",
+        "alt": "И.В. Маркичев Ау!",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_na_progulke",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ П. А. ФЕДОТОВ НА ПРОГУЛКЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_nalimov",
+        "alt": "В.А. Налимов",
+        "category": [
+          "Персонажи",
+          "Животные"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_persiki",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА П.П.КОНЧАЛОВСКИЙ ПЕРСИКИ 1935",
+        "category": [
+          "Природа"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_razborchivaya_nevesta",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА П. А. ФЕДОТОВ РАЗБОРЧИВАЯ НЕВЕСТА 1847 г.",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_saltykov_shedrin",
+        "alt": "CCCP 1976 МИХАИЛ ЕВГРАФОВИЧ САЛТЫКОВ-ЩЕДРИН 1889",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_svezhiy_kavaler",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ Е. А. ФЕДОТОВ СВЕЖИЙ КАВАЛЕР 1846 г",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_vatagin",
+        "alt": "А.И. Ватагин. Гулянка",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_vladymir_ilych",
+        "alt": "ЛЕДОКОЛ «ВЛАДИМИР ИЛЬИЧ» СССР-1976-K16",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_76_zavtrak_aristokrata",
+        "alt": "ГОСУДАРСТВЕННАЯ ТРЕТЬЯКОВСКАЯ ГАЛЕРЕЯ МОСКВА 1849r.",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1976,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_60_let_oktyabrya_2",
+        "alt": "1907 1977 60 ЛЕТ ВЕЛИКОГО ОКТЯБРЯ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_60_let_oktyabrya_3",
+        "alt": "1908 1977 60 ЛЕТ ВЕЛИКОГО ОКТЯБРЯ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_60_let_oktyabrya",
+        "alt": "1909 1977 60 ЛЕТ ВЕЛИКОГО ОКТЯБРЯ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_ak_1",
+        "alt": "АВИА ПОЧТА МОСКВА 1924г. КАЗАНЬ AK-1 6к 1977 СССР",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_amguema",
+        "alt": "ДИЗЕЛЬ-ЭЛЕКТРОХОД АМГУЕМА",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_ant_3",
+        "alt": "АВИА ПОЧТА ПРАГА ПАРИЖ АНТ -3 10к",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_barmy",
+        "alt": "Бармы XII в.GGGP Государственная Оружейная палата",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_beliy_medved",
+        "alt": "БЕЛЫЙ МЕДВЕДЬ",
+        "category": [
+          "Животные"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_dezhnev",
+        "alt": "ЛЕДОКОЛЬНЫЙ «ДЕЖНЕВ» ПАРОХОД СССР•1977 K12",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_efa_peschanya",
+        "alt": "ЯДОВИТЫЕ ЗМЕИ ЭФА ПЕСЧАНАЯ",
+        "category": [
+          "Животные"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_gadyka",
+        "alt": "ЯДОВИТЫЕ ЗМЕИ ГАДЮКА ОБЫКНОВЕННАЯ",
+        "category": [
+          "Животные"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_gurza",
+        "alt": "ЯДОВИТЫЕ ЗМЕИ ГЮРЗА",
+        "category": [
+          "Животные"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_ivestiya",
+        "alt": "ИЗВЕСТИЯ СОВЕТОВ ДЕПУТАТОВ ТРУДЯЩИХСЯ СССР ПОЧТА СССР",
+        "category": [
+          "Персонажи",
+          "Организации"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_kobra",
+        "alt": "ЯДОВИТЫЕ ЗМЕИ КОБРА СРЕДНЕАЗИАТСКАЯ",
+        "category": [
+          "Животные"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_kongress",
+        "alt": "ПОЧТА 1937 XXIV МЕЖДУНАРОДНЫЙ КОНГРЕСС ПО СУДОХОДСТВУ",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_lena",
+        "alt": "ЛЕНА ДИЗЕЛЬ-ЭЛЕКТРОХОД",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_p_5",
+        "alt": "САМОЛЕТ Р-5",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_pokrozskiy_sobor",
+        "alt": "Покровский собор (храм Василия Блаженного) 1555-1560",
+        "category": [
+          "Места"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_potir",
+        "alt": "Потир мраморный в золотой оправе работы Ивана Фомина. 1449 Загорский государственный историко - художественный музей-заповедник",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_rezba",
+        "alt": "Белокаменная резьба Дмитриевского собора во Владимире (деталь) XII",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_rublev",
+        "alt": "Андрей Рублев \"Архангел Михаил\" (деталь): XV Государственная Третьяковская галерея. Москве",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_s_novym_godom",
+        "alt": "С новым годом!",
+        "category": [
+          "Предметы",
+          "Природа"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_sadko",
+        "alt": "ЛЕДОКОЛЬНЫЙ ПАРОХОД САДКО",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_sedov",
+        "alt": "ЛЕДОКОЛЬНЫЙ ПАРОХОД СЕДОВ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_sh_2",
+        "alt": "САМОЛЕТ-АМФИБИЯ Ш-2",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_sibir",
+        "alt": "ЛЕДОКОЛ СИБИРЬ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_sibiryakov",
+        "alt": "ЛЕДОКОЛЬНЫЙ ПАРОХОД СИБИРЯКОВ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_slava_oktyabru",
+        "alt": "СЛАВА ВЕЛИКОМУ ОКТЯБРЮ",
+        "category": [
+          "Персонажи",
+          "Организации"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_77_suzdal",
+        "alt": "Златые врата XIII Суздаль",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1977,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_60_let_vlksm",
+        "alt": "БОЛЕТ ВЛКСМ ПЯТИЛЕТКЕ ЭФФЕКТИВНОСТИ И КАЧЕСТВА - ЭНГУЗИАЗМ И ТВОРЧЕСТВО МОЛОДЫХ 1978",
+        "category": [
+          "Предметы",
+          "Организации"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_ant_6",
+        "alt": "САМОЛЕТ ТБ-3 (АНТ-6)",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_bolshevik",
+        "alt": "Б. М. КУСТОДИЕВ БОЛЬШЕВИК 1920",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_kupchiha_za_chaem",
+        "alt": "Б. М. КУСТОДИЕВ КУПЧИХА ЗА ЧАЕМ 1918",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_maslenica",
+        "alt": "Б. М. КУСТОДИЕВ МАСЛЕНИЦА 1916",
+        "category": [
+          "Природа",
+          "Животные"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_prazdnik_v_derevne",
+        "alt": "Б. М. КУСТОДИЕВ ПРАЗДНИК В ДЕРЕВНЕ 1907",
+        "category": [
+          "Персонажи",
+          "Природа"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_sss_v_oblasti_svyazi",
+        "alt": "СОТРУДНИЧЕСТВО СОЦИАЛИСТИХЧЕСКИХ СТРАН В ОБЛАСТИ СВЯЗИ",
+        "category": [
+          "Организации"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_78_utro",
+        "alt": "ГОСУДАРСТВЕННЫЙ РУССКИЙ МУЗЕЙ ЛЕНИНГРАД В. М. КУСТОДИЕВ УТРО 1978 ПОЧТА СССР",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1978,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_bogorodskaya_rezba",
+        "alt": "Богородская резъба",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_ernst_krenkel",
+        "alt": "Э.Т. КРЕНКЕЛЬ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_gagarin",
+        "alt": "Ю.А. ГАГАРИН",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_holmogorskaya_kost",
+        "alt": "ХОЛМОГОРСКАЯ РЕЗНАЯ КОСТЬ",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_keterina",
+        "alt": "Т. Г. ШЕВЧЕНКО КАТЕРИНА",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_khohlomskaya_rospis",
+        "alt": "Хохломская роспись",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_kosmonavt_volkov",
+        "alt": "В.Н. ВОЛКОВ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_kurchatov",
+        "alt": "И.В. КУРЧАТОВ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_professor_bogrov",
+        "alt": "В.Г. БОГОРОВ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_rabochee_utro",
+        "alt": "М. Г. БЕЛЬСКИЙ РАБОЧЕЕ УТРО 1979",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_v_ludi",
+        "alt": "К. К. КОСТАНДИ В ЛЮДИ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_v_petrograd",
+        "alt": "А.. М. ЛОДУХОВ В ПЕТРОГРАД",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_vologodskoe_kruzhevo",
+        "alt": "Вологодское кружево",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_vozvrashenie_povernenya",
+        "alt": "В.Н. КОСТЕЦКИЙ ВОЗВРАЩЕНИЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_vulkanolog",
+        "alt": "ВУЛКАНОЛОГ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_79_zhostovskaya_rospis",
+        "alt": "Жостовская роспись",
+        "category": [
+          "Предметы"
+        ],
+        "year": 1979,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_80_kulikovskoy_bitve",
+        "alt": "УТРО НА КУЛИКОВОМ ПОЛЕ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1980,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_80_mikhail_somov",
+        "alt": "М.М. СОМОВ",
+        "category": [
+          "Транспорт"
+        ],
+        "year": 1980,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_80_tartu",
+        "alt": "ТАРТУ 950 ЛЕТ",
+        "category": [
+          "Места"
+        ],
+        "year": 1980,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_81_gureyka",
+        "alt": "ГУРИЙКА",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1981,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_81_olen",
+        "alt": "ОЛЕНЬ",
+        "category": [
+          "Животные"
+        ],
+        "year": 1981,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_81_poputchiki",
+        "alt": "ПОПУТЧИКИ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1981,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_81_sborshicy_chaya",
+        "alt": "СБОРЩИЦЫ ЧАЯ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1981,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_81_shota_rustaveli",
+        "alt": "ШОТА РУСТАВЕЛИ",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1981,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_82_davydov",
+        "alt": "ПОРТРЕТ Е.В. ДАВЫДОВА",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1982,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_82_neravniy_brak",
+        "alt": "НЕРАВНЫЙ БРАК",
+        "category": [
+          "Персонажи"
+        ],
+        "year": 1982,
+        "isNew": true
+      },
+      {
+        "filename": "ussr_akademicheskiy_ansambl",
+        "alt": "АКАДЕМИЧЕСКИЙ АНСАМБЛЬ НА КАТКЕ",
+        "category": [
+          "Персонажи",
+          "Спорт"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ussr_communism",
+        "alt": "Коммунизм",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ussr_ermitazh",
+        "alt": "Государственный эрмитаж",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ussr_otchistim_rodinu",
+        "alt": "Очистим родину",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ussr_parizhskaya_komunna",
+        "alt": "100 летие Парижской коммуны",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ussr_petrograd",
+        "alt": "Петроград",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "ussr_s_novym_godom",
+        "alt": "С Новым годом!",
+        "category": [
+          "Природа",
+          "Предметы"
+        ],
+        "isNew": true
       }
     ]
   },
@@ -1812,6 +6032,266 @@
         "category": [
           "Транспорт"
         ]
+      },
+      {
+        "filename": "yugoslavia_1",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_2",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_3",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_57_kongres",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_57_tuberkouloze",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_61_crna_gora",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_61_nedelja_krsta",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи",
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_61_sertic",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_63_coursoisier",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_78_ptt",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_80_avrelianvs",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_bitola",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_bohinj_2",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_bohinj",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_coursoisier_2",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_coursoisier",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_gradacac",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи",
+          "Животные"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_jablanica",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_krk",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_litostroj_2",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места",
+          "Транспорт"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_litostroj",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места",
+          "Транспорт"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_lucic",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Организации"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_milenkovic_2",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_milenkovic",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Природа"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_novi_sad",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_postna_stevilka",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_ptt",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Предметы"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_sertic_2",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_sertic_zenica",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_sertic",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Персонажи"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_spremo",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Космос"
+        ],
+        "isNew": true
+      },
+      {
+        "filename": "yugoslavia_svetozarevo",
+        "alt": "JUGOSLAVIJA",
+        "category": [
+          "Места"
+        ],
+        "isNew": true
       }
     ]
   }

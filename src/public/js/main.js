@@ -69,7 +69,7 @@ function setupFancyBox(selector) {
     baseClass: 'my-fancybox',
     loop: true,
     clickOutside: true,
-    hash: false, // отключите автоматическое обновление URL
+    hash: false, 
     afterLoad: function(instance, current) {
       instance.$refs.bg.css('background', 'rgba(0, 0, 0, 1)');
       instance.$refs.bg.css('opacity', '1');
@@ -81,7 +81,6 @@ function setupFancyBox(selector) {
       instance.$refs.bg.css('background', 'rgba(0, 0, 0, 0)');
       instance.$refs.bg.css('opacity', '0');
       
-      // очищаем URL при закрытии
       history.replaceState(null, null, '/');
     },
     caption: function(instance, item) {
@@ -90,21 +89,18 @@ function setupFancyBox(selector) {
   });
 }
 
-
-// Измененная функция initFancyBox
 function initFancyBox() {
   setupFancyBox("[data-fancybox='gallery'], [data-fancybox='visible-gallery']");
 
-  // Получаем все изображения в галерее
   var $images = $(".gallery__item:visible a img");
   var imagesLoaded = 0;
 
   $images.each(function() {
-    // Для каждого изображения создаем новый объект Image и устанавливаем обработчик события 'load'
+
     var img = new Image();
     img.onload = function() {
       imagesLoaded++;
-      // Если все изображения загружены, проверяем URL и открываем Fancybox, если нужно
+
       if (imagesLoaded === $images.length) {
         var hash = window.location.hash;
         if (hash) {
@@ -127,105 +123,156 @@ function updateFancyBox() {
   setupFancyBox("[data-fancybox='gallery'], [data-fancybox='visible-gallery']");
 }
 
-  document.addEventListener('lazyloaded', function(event) {
-    var img = event.target;
-    img.src = img.dataset.src;
+document.addEventListener('lazyloaded', function(event) {
+  var img = event.target;
+  img.src = img.dataset.src;
+});
+
+$(document).ready(function() {
+  initFancyBox();
+  var resetButton = document.getElementById('filter__reset');
+  var filterCount = 16;
+  var filterMoreButton = document.getElementById('filter__more');
+  var filterButtons = document.querySelectorAll('.filter__button');
+
+  if (filterButtons.length > filterCount) {
+    for (var i = filterCount; i < filterButtons.length; i++) {
+      filterButtons[i].style.display = 'none';
+    }
+    filterMoreButton.style.display = 'inline-block';
+  }
+
+  filterMoreButton.addEventListener('click', function() {
+    for (var i = filterCount; i < filterButtons.length; i++) {
+      filterButtons[i].style.display = 'inline-block';
+    }
+    filterMoreButton.style.display = 'none';
   });
 
-  $(document).ready(function() {
-    initFancyBox();
-    var resetButton = document.getElementById('filter__reset');
-    var filterCount = 16;
-    var filterMoreButton = document.getElementById('filter__more');
-    var filterButtons = document.querySelectorAll('.filter__button');
+  $('#new-only-checkbox').on('change', function() {
+    applyFilters();
+  });
 
-    if (filterButtons.length > filterCount) {
-      for (var i = filterCount; i < filterButtons.length; i++) {
-        filterButtons[i].style.display = 'none';
+  function applyFilters() {
+    var onlyNewIsActive = $('#new-only-checkbox').is(':checked');
+    var activeFilters = getActiveFilters(onlyNewIsActive);
+    filterGalleryItems(activeFilters);
+    updateFancyBox();
+    updateIsotope();
+  }
+
+  function getActiveFilters(onlyNewIsActive) {
+    var activeFilters = {};
+    document.querySelectorAll('.filter__button.active').forEach(function(activeButton) {
+      var activeFilterType = activeButton.getAttribute('data-filter-type');
+      var activeFilterValue = activeButton.getAttribute('data-filter-value');
+      if (!activeFilters[activeFilterType]) {
+        activeFilters[activeFilterType] = [];
       }
-      filterMoreButton.style.display = 'inline-block';
+      activeFilters[activeFilterType].push(activeFilterValue);
+    });
+
+    if (onlyNewIsActive) {
+      activeFilters['new'] = ['true'];
     }
 
-    filterMoreButton.addEventListener('click', function() {
-      for (var i = filterCount; i < filterButtons.length; i++) {
-        filterButtons[i].style.display = 'inline-block';
-      }
-      filterMoreButton.style.display = 'none';
-    });
+    return activeFilters;
+  }
 
-    document.querySelectorAll('.filter__button').forEach(function(button) {
-      button.addEventListener('click', function() {
-        var filterType = this.getAttribute('data-filter-type');
-        var filterValue = this.getAttribute('data-filter-value');
-        button.classList.toggle('active');
-        var activeFilters = {};
-        document.querySelectorAll('.filter__button.active').forEach(function(activeButton) {
-          var activeFilterType = activeButton.getAttribute('data-filter-type');
-          var activeFilterValue = activeButton.getAttribute('data-filter-value');
-          if (!activeFilters[activeFilterType]) {
-            activeFilters[activeFilterType] = [];
-          }
-          activeFilters[activeFilterType].push(activeFilterValue);
-        });
-
-        var filteredImages = document.querySelectorAll('.gallery__item');
-        var noResults = true;
-
-        filteredImages.forEach(function(imageDiv) {
-          var matchesAnyFilter = false;
-          for (var filterType in activeFilters) {
-            if (activeFilters.hasOwnProperty(filterType)) {
-              if (filterType === 'category') {
-                var imageCategories = imageDiv.getAttribute('data-category').split(', ').map(s => s.trim());
-                if (activeFilters[filterType].some(value => imageCategories.includes(value))) {
-                  matchesAnyFilter = true;
-                  break;
-                }
-              } else if (filterType === 'country') {
-                if (activeFilters[filterType].includes(imageDiv.getAttribute('data-country'))) {
-                  matchesAnyFilter = true;
-                  break;
-                }
-              } else if (filterType === 'year') {
-                if (activeFilters[filterType].includes(imageDiv.getAttribute('data-year'))) {
-                  matchesAnyFilter = true;
-                  break;
-                }
-              }
-            }
-          }
-          if (matchesAnyFilter) {
-            $(imageDiv).show(); // Show the image if it matches any filter
-          } else {
-            $(imageDiv).hide(); // Hide the image if it doesn't match any filter
-          }
-        });
-
-        var hasActiveFilters = Object.keys(activeFilters).length > 0
-        if (!hasActiveFilters) {
-          // Если активных фильтров нет, симулируем клик на кнопку "Сбросить"
-          resetButton.click();
-        } else {
-          resetButton.style.display = 'block';
-          updateFancyBox(); // Update FancyBox after filter changes
-          updateIsotope(); // Update Isotope after filter changes
-        }
-      });
-    });
-
-    resetButton.addEventListener('click', function() {
-      document.querySelectorAll('.filter__button').forEach(function(button) {
-        button.classList.remove('active');
-      });
-      $('.gallery__item').show(); // Show all images
-      resetButton.style.display = 'none';
-      updateFancyBox(); // Update FancyBox after reset
-      updateIsotope(); // Update Isotope after reset
-    });
-
+  function filterGalleryItems(activeFilters) {
     var filteredImages = document.querySelectorAll('.gallery__item');
-    updateFancyBox(); // Update FancyBox after reset
-    updateIsotope(); // Update Isotope after reset
+
+    filteredImages.forEach(function(imageDiv) {
+      var matchesCategory = false, matchesCountry = false, matchesYear = false;
+      var isItemNew = imageDiv.getAttribute('data-is-new') === 'true';
+      var isNewOnly = activeFilters['new'] && activeFilters['new'].includes('true');
+
+      for (var filterType in activeFilters) {
+        if (activeFilters.hasOwnProperty(filterType)) {
+          if (filterType === 'category') {
+            var imageCategories = imageDiv.getAttribute('data-category').split(', ').map(s => s.trim());
+            matchesCategory = activeFilters[filterType].some(value => imageCategories.includes(value)) || matchesCategory;
+          } else if (filterType === 'country') {
+            matchesCountry = activeFilters[filterType].includes(imageDiv.getAttribute('data-country')) || matchesCountry;
+          } else if (filterType === 'year') {
+            matchesYear = activeFilters[filterType].includes(imageDiv.getAttribute('data-year')) || matchesYear;
+          }
+        }
+      }
+
+      var matchesAny = matchesCategory || matchesCountry || matchesYear;
+
+      if (isNewOnly) {
+        if (isItemNew && (matchesAny || Object.keys(activeFilters).length === 1)) {
+          $(imageDiv).show();
+        } else {
+          $(imageDiv).hide();
+        }
+      } else {
+        if (matchesAny) {
+          $(imageDiv).show();
+        } else {
+          $(imageDiv).hide();
+        }
+      }
+    });
+
+    var visibleItems = $('.gallery__item:visible').length;
+  if (visibleItems === 0) {
+    $('#no-new-items').show();
+  } else {
+    $('#no-new-items').hide();
+  }
+  }
+
+  document.querySelectorAll('.filter__button').forEach(function(button) {
+    button.addEventListener('click', function() {
+      var filterType = this.getAttribute('data-filter-type');
+      var filterValue = this.getAttribute('data-filter-value');
+      button.classList.toggle('active');
+      var activeFilters = {};
+      document.querySelectorAll('.filter__button.active').forEach(function(activeButton) {
+        var activeFilterType = activeButton.getAttribute('data-filter-type');
+        var activeFilterValue = activeButton.getAttribute('data-filter-value');
+        if (!activeFilters[activeFilterType]) {
+          activeFilters[activeFilterType] = [];
+        }
+        activeFilters[activeFilterType].push(activeFilterValue);
+      });
+
+      var onlyNewIsActive = $('#new-only-checkbox').is(':checked');
+      var filteredImages = document.querySelectorAll('.gallery__item');
+      var noResults = true;
+
+      filterGalleryItems(activeFilters);
+      applyFilters();
+
+      var hasActiveFilters = Object.keys(activeFilters).length > 0
+      if (!hasActiveFilters) {
+        resetButton.click();
+      } else {
+        resetButton.style.display = 'block';
+        updateFancyBox();
+        updateIsotope();
+      }
+    });
+  });
+
+  resetButton.addEventListener('click', function() {
+    document.querySelectorAll('.filter__button').forEach(function(button) {
+      button.classList.remove('active');
+    });
+    $('.gallery__item').show();
+    resetButton.style.display = 'none';
+    $('#new-only-checkbox').prop('checked', false);
+    $('#no-new-items').hide();
+    updateFancyBox();
+    updateIsotope();
+  });
+
+  var filteredImages = document.querySelectorAll('.gallery__item');
+  updateFancyBox();
+  updateIsotope();
   });
 });
 
@@ -234,7 +281,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const items = Array.from(gallery.querySelectorAll('.gallery__item'));
   items.forEach(item => gallery.removeChild(item));
 
-  // Функция для перемешивания массива
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -242,7 +288,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  // Перемешиваем и вставляем элементы обратно в галерею
   shuffleArray(items);
   items.forEach(item => gallery.appendChild(item));
 });
